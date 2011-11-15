@@ -1,8 +1,16 @@
 html {
   min-width: 760px;
+  background-color: #CCCCCC;
 }
 html, body {
   font-family: Georgia, "Bitstream Charter", serif;
+}
+
+body {
+  padding: 2em;
+  width: 760px;
+  margin: 0 auto;
+  background-color: #EEE;
 }
 
 
