@@ -1,0 +1,168 @@
+Let's design websites that will stand the test of time.
+
+http://www.webstandards.org/
+
+This book is recent -- has references to chrome, mozillan 3, safari, etc.
+
+http://zeldman.com/x/16
+
+http://forabeautifulweb.com/blog/about/universal_internet_explorer_6_css
+  * http://www.stuffandnonsense.co.uk/content/demo/2009/05/21/forabeautifulweb.html
+
+Stop trying to get ie6 to work with the new design of a site and instead just focus on ie6 actually just being readable for those users -- less hacks!
+
+Stop versioning sites specifically for each browser, i.e., stop detecting version and serving different site.
+
+Those who do not respect a tool are unlikely to use it correctly.
+
+Books goes on about  bandwidth savings -- is it really relevant in this day and age? The 'it gets rendered faster' argument is a better argument.
+
+mod_gzip apache module exists for gzipping content.
+
+http://blog.fawny.org/category/standards/failed-redesigns
+
+Print style sheets: http://www.alistapart.com/articles/goingtoprint
+
+http://validator.nu
+
+Top Reason Not to Use XHTML 1
+  1. You don't know the rules of XHTML
+
+Some optional reading material
+  Ambient Findability: What We Find Changes Who We become by Peter Morville (O'Reilly, 2005)
+  Building Findable Websites: Web Standards, SEO, and Beyond by Aarron Walter (New Riders, 2008)
+
+onMouseOver attribute must be onmouseover ;)
+
+The W3C validator flags the missing space error with the user-friendly, clear-as-day message, "XML Parsing Error: attributes construct error." And they wonder why the kids are on pot.
+
+Content-type meta tag is a sure-fire way of setting the character encoding for the document (or we could use the content-type http header) BECAUSE OF IE we can't use the xml prolog.
+
+http://www.ftrain.com/ProcessingProcessing.html
+
+trick ie6 and ie7 into supporting html5 http://slidshare.net/remy.sharp/html5-js-apis
+
+MIME type of text/html is html5 - MIME type of application/xhtml+xml will be xhtml5
+
+You can do document.idname instead of document.getElementsById()  - they recommend the latter. Why?
+
+Repetition is the mother of learning.
+
+CSS Books
+  * Bulletproof We Design
+  * CSS Mastery: Advanced Web Standards Solutions
+  * handcrafgted CSS
+  * Stylin' with CSS: A Designer's Guide
+  * The CSS Pocket Reference (2001)
+  * The Zen of CSS Design
+  * Transcending CSS: the Fine Art of Web Desiggn
+  * Web Standards Creativity
+
+http://desktoppub.about.com/od/glossary/g/xheight.htm
+
+font-size-adjust css property to adjust x-height - www.brighterplanet.com for an example
+
+@font-face css thing embeds real fonts in the page
+
+lightbox - http://www.huddletogether.com/projects/lightbox
+
+sIFR http://wiki.novemberborn.net/sifr3
+
+CSS Box Model: Margin - Border - Padding - Content
+
+Vertically adjacent elements collapse into each other's vertical margins.
+  * demo: http://www.andybudd.com/archives/2003/11/no_margin_for_error
+
+text-indent property for paragraphs. Kind of like real paragraphs indenting the first line.
+
+display property values: http://www.w3.org/TR/CSS21/visuren.html#display-prop
+
+float reduces the width to match the width of the elements that it contains.
+
+css3-grid can be used instead of floats http://www.w3.org/TR/css3-grid
+
+The clear property accepts four values: none, left, right and both. Clear tells the browser to position that element beneath floated elements depending on the value that clear is passed.
+
+http://www.michelf.com/projects/multi-safari
+
+http://www.finalbuilds.edskes.net/iecollection.htm
+
+http://browsers.revolt.org
+
+http://www.positionisevertyhing.net/explorer/doubled-margin.html
+  * If box is floated left (or right) and there is left-margin (or right if floated right), then the margin is doubled.
+  * add display:inline to box to fix
+
+http://www.mywebsite.force9.co.uk/png
+
+
+css (bugs, etc.) informational sites
+  * http://www.positioniseverything.net
+  * http://www.css-discuss.org
+  * http://css-discuss.incutio.com/?page=BrowserBugs
+    * http://css-discuss.incutio.com/?page=RoundedCorners
+    * http://css-discuss.incutio.com/?page=DropShadows
+  * http://codex.wordpress.org/CSS_Fixing_Browser_Bugs
+  * http://www.centricle.com/ref/css/filters
+  * http://code.google.com/p/bluprintcss
+  * Honourable Mentions
+    * http://blogs.msdn.com/ie/default.aspx
+    * http://www.webkit.org/blog
+
+star (*) HTML hack: http://www.positioniseverything.net/articles/poll/star-html.php
+
+ie6 transparent png hacks: http://24ways.org/2007/supersleight-transparent-png-in-ie6
+  * DD_belatedPNG http://www.dillerdesign.com/experiment/DD_belatedPNG
+
+Site for rgba transparency http://www.wilsonminer.com
+
+opacity property affects the children but specifying alpha in the rgba doesn't
+
+patch ie6's css support http://code.google.com/p/ie7-js/
+
+dealing with ie6 http://blog.digg.com/?p=878
+
+flash stuff
+  * http://www.alistapart.com/articles/flashatay
+  * http://code.google.com/p/swfobject
+  * http://wwww.onlinetools.org/articles/unobtrusivejavascript
+
+Limit yourself to two or three fonts on a website to avoid the 'classified ads' effect
+
+Readable measure is important -- the number of characters per line of text. 
+  45-75 characters is appropriate for a single column of text with a serif face.
+  40-50 characters for multiple columns on a grid.
+  links
+    * http://www.webtypography.net/Rhythm_and_Proportion/Horizontal_Motion/2.1.2
+    * http://www.markboulton.co.uk/journal/comments/five_simple_steps_to_better_typography
+    * http://www.maxdesign.com.au/presentation/liquid
+    * http://www.alistapart.com/articles/fluidgrids
+
+typography
+  * http://www.alistapart.com/topics/design/typography
+  * http://www.alistapart.com/articles/indefenseofreaders
+  * http://www.alistapart.com/articles/settingtypeontheweb
+  * http://fivesimplesteps.co.uk
+  * http://www.creativepro.com/blog/typetalk-top-ten-type-resources-online
+    * http://www.ilovetypography.com
+    * http://www.typophile.com
+    * http://www.typographica.org
+    * http://www.typeculture.com
+    * http://www.tdc.org/tdc/resources
+    * http://www.fontfeed.com
+    * http://www.webtypography.net
+    * http://www.typeradio.org
+    * http://www.alistapart.com/articles
+  * http://www.wilsonminer.com/posts/2008/oct/20/relative-readability
+
+Elastic layouts - http://www.alistapart.com/articles/elastic
+
+Pixel size for fonts is strongly encouraged, why? Why not point?
+  * http://www.alistapart.com/d/howtosizetextincss
+
+CSS switching - http://www.alistapart.com/articles/alternate
+
+
+
+
+
