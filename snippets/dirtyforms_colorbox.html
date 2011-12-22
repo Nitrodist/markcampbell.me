@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" media="all" href="../style.css" />
+    <title>Mark Campbell - Nitrodist - ColorBox Dialog for Dirty Forms</title>
+  </head>
+
+  <body>
+    <h1>ColorBox Dialog for Dirty Forms</h1>
+
+    <p><a href="https://github.com/snikch/jquery.dirtyforms">Dirty Forms</a> is a jQuery plugin to prevent users from losing form data.</p>
+
+    <p>By default, it uses <a href="http://defunkt.io/facebox/">Facebox</a>, which is all well and good if you&rsquo;re using that already, but what if you&rsquo;re using a different lightboxing library? Well, Dirty Forms lets you override the dialog box with your own.</p>
+
+    <p>And so, I present to you the dialog bindings for a <a href="http://jacklmoore.com/colorbox/">ColorBox</a> based dialog. Feel free to replace this in the javascript file for Dirty Forms in order for this to be the default for your site.</p>
+
+    <div style="overflow:scroll;">
+    <pre><code>$.DirtyForms.dialog = {
+      selector : '#cboxContent',
+      fire : function(message, title) {
+        var content = '&lt;h3&gt;' + title + '&lt;/h3&gt;' + 
+                      '&lt;p style="padding: 10px;"&gt;' + message + '&lt;/p&gt;' + 
+                      '&lt;br /&gt;' + 
+                      '&lt;p&gt; &lt;a href="#leave" id="leave" class="button delete delete-item"&gt;Lose changes and leave&lt;/a&gt; &lt;a id="stay" href="#stay" class="button"&gt;Stay on current page&lt;/a&gt;&lt;/p&gt;';
+        $.colorbox({html: content, width: "500px", height: "240px"});
+      },
+      bind : function() {
+        var close = function(decision) {
+          return function(e) {
+            e.preventDefault();
+            $.colorbox.close();
+            decision(e);
+          };
+        };
+        $("#stay").click(close(decidingCancel));
+        $("#cboxClose").click(close(decidingCancel));
+        $("#cboxOverlay").click(close(decidingCancel));
+        $("#leave").click(close(decidingContinue));
+      },
+      refire : function(content, ev) {
+        $.colorbox({html: content, width: "500px", height: "300px"});
+      },
+      stash : function() {
+        if ($("#cboxContent").html != "") {
+          return $('#cboxContent').clone(true);
+        }
+        else {
+          return false;
+        }
+      }
+    };
+    </code></pre>
+    </div>
+  </body>
+</html>
