@@ -1,0 +1,9 @@
+*.orig
+*.swn
+*.swo
+*.swp
+*~
+.DS_Store
+.nfs*
+log/*
+/_site/*

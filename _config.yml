@@ -1,0 +1,3 @@
+name: Ruby = MC²
+pygments: true
+exclude: ["vendor", "Gemfile", "Gemfile.lock", "Procfile"]
