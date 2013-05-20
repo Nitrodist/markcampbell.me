@@ -65,6 +65,6 @@ $
 1. Prefix the filename with an underscore if possible
 1. Nothing else
 
-That's it, unfortunately. Also, we can't use `include:` to combat this problem. The `include:` directive does not mean **only include these files**, but rather **additionally include these files** as Jekyll doesn't load files beginning with `.` (such as `.htaccess` which is the default `include:` setting). Perhaps in the future there'll be more fine-grained control for Jekyll so that you can specify a list of directories and files to use.
+That's it, unfortunately. Also, we can't use `include:` to combat this problem. The `include:` directive does not mean **only include these files**, but rather **additionally include these files** as Jekyll doesn't load files beginning with `.` (such as `.htaccess` which is the default `include:` setting) or `_` (file or directory alike). Perhaps in the future there'll be more fine-grained control for Jekyll so that you can specify a list of directories and files to use.
 
 If you're interested in reading more about Jekyll configuration, you can read their [docs](http://jekyllrb.com/docs/configuration/).
