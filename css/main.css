@@ -20,7 +20,12 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
+  margin-top: 2em;
+}
+
+ul {
+  margin-top: 1em;
+}
 
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
@@ -60,6 +65,10 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.container {
+  padding: 2em;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
@@ -75,7 +84,6 @@ ul.posts span {
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
 }
 
 .site .header h1.title a {
