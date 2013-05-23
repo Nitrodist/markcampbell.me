@@ -103,4 +103,5 @@ Think about a normal day at the office for a second and contemplate how much tim
 
 Well, that's a summary of the knowledge that I've gleamed from working remotely. Hit me up on [twitter](https://twitter.com/Nitrodist) if you want to chat more about it. I'll submit this to HN and reddit soon and we can have discussions in those forums.
 
-edit: the [hackernews discussion](https://news.ycombinator.com/item?id=5757047)
+edit: the [hackernews discussion](https://news.ycombinator.com/item?id=5757047)  
+edit2: the reddit [webdev](http://www.reddit.com/r/webdev/comments/1ewm19/how_to_work_remotely_as_a_software_developer/) discussion and the [programming](http://www.reddit.com/r/programming/comments/1ewlyv/how_to_work_remotely_as_a_software_developer/) discussion
