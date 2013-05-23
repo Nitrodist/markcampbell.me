@@ -52,4 +52,26 @@ Everyone has a timeboxing technique that works for them -- go out there and find
 
 ## Communication
 
-This may come as a surprise to you, but [communication is one of the most important skills to have as a programmer](http://www.codinghorror.com/blog/2011/02/how-to-write-without-writing.html).
+This may come as a surprise to you, but [communication is one of the most important skills to have as a programmer](http://www.codinghorror.com/blog/2011/02/how-to-write-without-writing.html). The better you are at communicating, the better a programmer you are. In fact, you could even say that it's not things, techniques, or even programming languages that get you rich, it's [people](http://www.imdb.com/title/tt0070723/) (no one got rich on their own!).
+
+Getting back to the discussion at hand, communicating is what enables you to not only get the job done, but more importantly you get the *right job* done.  So much time is spent on work that's scrapped because the wrong thing was created. [Agile](http://en.wikipedia.org/wiki/Agile_software_development) methods aim to minimize this, of course (and I hope you're practicing them), but if you can't get your point across (or vice versa) then the wrong thing is still going to be built.
+
+As a remote worker, you may feel that you're interrupting someones work by pinging them with a question. Don't fear this! Everyone has their chat programs or email set up so that it bothers them in an appropriate way for them. While you're working on a team (or with a stakeholder), the collective work that is done will be better if you communicate to them earlier.
+
+Quick feedback on ideas is *paramount* to getting stuff done and email is not a good medium for it. Not being able to bounce ideas quickly off a colleague or a stakeholder can be a stranglehold on your time and schedule. Without that quick feedback, you may end up either waiting for feedback (minutes/hours lost) or building the wrong thing (hours/days lost).  To get that feedback, I recommend communicating with them by any other medium except *email* (see a list below for specific ones).
+
+Back and forth emails really suck: there's an extreme time-delay between each email and both of you (or N number of people in the conversation) are constantly context switching every time you have to read or write an email. Getting on Skype with the person or people can yield **much** better results.
+
+Working in a group can create a productive atmosphere. As a remote worker, you lose some of that so you have to really make the effort to communicate through all the channels that are available to you (mailing lists, issue trackers, chat, IM, IRC, email, etc.) to gain that atmosphere back.
+
+You should be using most, if not all, of the following techniques in order to communicate to remote parties:
+
+* Email
+* Hipchat
+* IRC
+* IM (Skype, AOL, etc.)
+* Phone (Gasp!)
+* Mail (please, no)
+* Fax (what year is it?)
+
+Think about a normal day at the office for a second and contemplate how much time you spend talking with your colleagues. Are you spending the same amount of time remotely? Why not? Keeping the channels open to your colleagues is incredibly important and an effort really has to be made.
