@@ -69,7 +69,7 @@ Personally, I prefer allotting a task or a set of tasks in 1 hour slots because 
 * Why is it taking so long?
 * Can I ask someone for help?
 
-With the timeboxing technique, you're forced to consider these questions instead of blindly ignore them for the day. Having someone in-person to ask a question (or be interrupted by) is a luxury of the office and pausing to ask questions and interact with people is extremely useful while working from home.
+With the timeboxing technique, you're forced to consider these questions instead of blindly ignoring them for the day. Having someone in-person to ask a question (or be interrupted by) is a luxury of the office and pausing to ask questions and interact with people is extremely useful while working from home.
 
 Everyone has a timeboxing technique that works for them -- go out there and find it!
 
