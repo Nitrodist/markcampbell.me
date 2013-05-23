@@ -23,22 +23,31 @@ Adding onto the ignoring people guideline, working from a coffee shop is great. 
 
 If you're working from home, find a room or desk that you can use just for work related stuff and keep it that way. If you're working from on your bed, you'll soon associate work with sleep and/or vice-versa. Remember, [bedrooms are for sleeping and sex](http://sleepdisorders.about.com/od/howcanisleepbetter/a/bettersleep.htm), not work.
 
+## Routine
+
+Having a routine is something that a office worker takes for granted. They're forced to leave their house, travel (which takes time), and then begin work once they arrive.
+
+With someone who works remotely, there's no segregation between the time they're at home to when they're at work. That time that's spent traveling to work is reduced from 15-60 minutes to 0 minutes.
+
+Another problem is that you're surrounded by things that aren't necessary for your job. You don't watch TV at work in the office, but now that you're at home, you have the option. Resist the temptation! Distractions, not even **once**.
+
+Developing a routine helps immensely. Once you begin work (in your workspace!) at a preordained time, you tend to not be  tempted or distracted. Taking a lunch break at the same time each day helps. Make sure to end work at a preordained time as well. You're much more likely to get your work done in a predictable and sane manner once you develop a routine.
+
 ## Setting Limits
 
-One of the problems of working from home is that the separation between work and home doesn't exist so you may find yourself spending more or less time than you should on work. Because of this setting limits is *paramount*.
+One of the problems of working from home is that the separation between work and home doesn't exist so you may find yourself spending more or less time than you should on work. Because of this, setting limits is *paramount*.
 
 The idea behind setting limits is that you're in a profession. Spending time outside of your obligation on work should be done with caution as you have duty to respect your own time and sanity. 
 
-On the flip side for your employer, they should also be concerned if you're working more than agreed on. If you're already working 50-60 hours a week on work, then you're at risk for burning yourself out. 
-
-Also, when you invariably need to pull some overtime to get something done ASAP, where's that time going to come from? Suddenly, working 50-60 hours that week isn't enough and you're spending most of your waking hours at work to get something done. **Respect yourself and your profession by setting limits**.
+On the flip side for your employer, they should also be concerned if you're working more than agreed on. From the employer's perspective, you're risking burning yourself out if you work 50-60 hours a week. Also, when you invariably need to pull some overtime to get something done ASAP, where's that time going to come from? Suddenly, working 50-60 hours that week isn't enough and you're spending most of your waking hours at work to get that critical project done. **Respect yourself, your employer, and your profession by setting limits**.
 
 To know what the limits should be, you need to follow a few guidelines:
 
-1. Work the same hours as your team
-2. Work during an period that overlaps with your team if #1 fails
+1. Work the amount of hours you agreed to with your employer
+2. Work at the same time as your team
+3. Work during an period that overlaps with your team if #2 fails
 
-That's it! I wouldn't recommend working off-hours as the turn-around time to get issues resolved suddenly turns from a few minutes to 8+ hours (whenever your team is online). If you're developing solo, do the development work when your stakeholders in the project are available.
+That's it! I wouldn't recommend working off-hours as the turn-around time to get issues resolved from your co-workers suddenly turns from a few minutes to 8+ hours (whenever your team is online next). If you're developing solo, do the development work when your stakeholders in the project are available.
 
 ## Timeboxing
 
@@ -53,14 +62,14 @@ As to the **procrastination**, it is also [a hot topic](http://www.codinghorror.
 
 Now, specifically, there are *many* timeboxing techniques out there. One of the most popular and famous techniques out there is the [Pomodoro Technique](http://en.wikipedia.org/wiki/Pomodoro_Technique) which advocates 25 minutes blocks interspaced with varying amounts of breaks. If you're having trouble switching between tasks and need a lot of structure, then this technique may be for you.
 
-Personally, I prefer allotting a task or a set of tasks in 1 hour slots because that it's not too short of an amount of time that I'll constantly exceed the task I'm working on and not too long of a time such that I get stuck wasting my time trying to figure out a problem. If I'm not done after an hour then I can ask myself questions like:
+Personally, I prefer allotting a task or a set of tasks in 1 hour slots because that it's not too short of an amount of time that I'll constantly exceed the amount of time I've allotted for the task I'm working on and not too long of a time such that I get stuck wasting my time trying to figure out a problem. If I'm not done after an hour then I can ask myself questions like:
 
 * Am I doing this right?
 * What's left to do?
 * Why is it taking so long?
 * Can I ask someone for help?
 
-With the timeboxing technique, you're forced to consider these questions instead of blindly ignore them for the day. Having someone in-person to ask a question (or be interrupted by) is a luxury of the office and pausing to ask these questions and interact with people is extremely useful while working from home.
+With the timeboxing technique, you're forced to consider these questions instead of blindly ignore them for the day. Having someone in-person to ask a question (or be interrupted by) is a luxury of the office and pausing to ask questions and interact with people is extremely useful while working from home.
 
 Everyone has a timeboxing technique that works for them -- go out there and find it!
 
@@ -68,7 +77,7 @@ Everyone has a timeboxing technique that works for them -- go out there and find
 
 This may come as a surprise to you, but [communication is one of the most important skills to have as a programmer](http://www.codinghorror.com/blog/2011/02/how-to-write-without-writing.html). The better you are at communicating, the better a programmer you are. In fact, you could even say that it's not things, techniques, or even programming languages that get you rich, it's [people](http://www.imdb.com/title/tt0070723/) (no one got rich on their own!).
 
-Getting back to the discussion at hand, communicating is what enables you to not only get the job done, but more importantly you get the *right job* done.  So much time is spent on work that's scrapped because the wrong thing was created. [Agile](http://en.wikipedia.org/wiki/Agile_software_development) methods aim to minimize this, of course (and I hope you're practicing them), but if you can't get your point across (or vice versa) then the wrong thing is still going to be built.
+Getting back to the discussion at hand, communicating is what enables you to not only get the job done, but more importantly to get the *right job* done.  So much time is spent on work that's scrapped because the wrong thing was created. [Agile](http://en.wikipedia.org/wiki/Agile_software_development) methods aim to minimize this, of course (and I hope you're practicing them), but if you can't get your point across (or vice versa) then the wrong thing is still going to be built.
 
 As a remote worker, you may feel that you're interrupting someones work by pinging them with a question. Don't fear this! Everyone has their chat programs or email set up so that it bothers them in an appropriate way for them. While you're working on a team (or with a stakeholder), the collective work that is done will be better if you communicate to them earlier.
 
@@ -89,3 +98,7 @@ You should be using most, if not all, of the following techniques in order to co
 * Fax (what year is it?)
 
 Think about a normal day at the office for a second and contemplate how much time you spend talking with your colleagues. Are you spending the same amount of time remotely? Why not? Keeping the channels open to your colleagues is incredibly important and an effort really has to be made.
+
+## Closing Remarks
+
+Well, that's a summary of the knowledge that I've gleamed from working remotely. Hit me up on [twitter](https://twitter.com/Nitrodist) if you want to chat more about it. I'll submit this to HN and reddit soon and we can have discussions in those forums.
