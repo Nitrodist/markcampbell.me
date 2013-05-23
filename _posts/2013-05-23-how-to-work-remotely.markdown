@@ -9,6 +9,20 @@ Working from home gives you the freedom to get a lot done, away from the distrac
 
 I've worked remotely with 8+ colleagues for over a year at [Wave](https://www.waveapps.com/) and with [Nathan Bertram](http://trueperspective.net/) on [ArrangeMySeat](https://arrangemyseat.com) for even longer. Here's some of the knowledge I've gleamed from that experience.
 
+## Workspace
+
+Working remotely gives you the *freedom* of picking your own office. How great is that? Key to that is picking a space that's appropriate. Here's a few things that I find that help:
+
+* Being in a place that you can ignore people without being rude
+* Quiet or moderate, constant noise levels
+* A designated place to work (not your bed)
+
+Having a space to work that you can ignore people is key to getting work done. Constantly being interrupted by people you live with or other people will kill your productivity.
+
+Adding onto the ignoring people guideline, working from a coffee shop is great. People will ignore you, you get hopped up on caffeine, and there's a constant noise level about you.
+
+If you're working from home, find a room or desk that you can use just for work related stuff and keep it that way. If you're working from on your bed, you'll soon associate work with sleep and/or vice-versa. Remember, [bedrooms are for sleeping and sex](http://sleepdisorders.about.com/od/howcanisleepbetter/a/bettersleep.htm), not work.
+
 ## Setting Limits
 
 One of the problems of working from home is that the separation between work and home doesn't exist so you may find yourself spending more or less time than you should on work. Because of this setting limits is *paramount*.
