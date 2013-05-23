@@ -7,7 +7,7 @@ categories: tutorial
 
 Working from home gives you the freedom to get a lot done, away from the distractions of office life. On the other hand, it also gives the freedom to goof off all day! 
 
-I've worked remotely with 8+ colleagues for over a year at [Wave](https://www.waveapps.com/) and with [Nathan Bertram](http://trueperspective.net/) on [ArrangeMySeat](https://arrangemyseat.com) for even longer. Here's some of the knowledge I've gleamed from that experience.
+I've worked remotely with 8+ colleagues for over a year at [Wave](https://www.waveapps.com/) and with [Nathan Bertram](http://trueperspective.net/) on [ArrangeMySeat](https://arrangemyseat.com) for even longer. Here's some of the knowledge I've gleaned from that experience.
 
 ## Workspace
 
