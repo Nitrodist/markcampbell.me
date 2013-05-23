@@ -70,7 +70,7 @@ You should be using most, if not all, of the following techniques in order to co
 * Hipchat
 * IRC
 * IM (Skype, AOL, etc.)
-* Phone (Gasp!)
+* Phone (gasp!)
 * Mail (please, no)
 * Fax (what year is it?)
 
