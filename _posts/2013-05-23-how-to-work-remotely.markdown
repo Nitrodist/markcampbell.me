@@ -102,3 +102,5 @@ Think about a normal day at the office for a second and contemplate how much tim
 ## Closing Remarks
 
 Well, that's a summary of the knowledge that I've gleamed from working remotely. Hit me up on [twitter](https://twitter.com/Nitrodist) if you want to chat more about it. I'll submit this to HN and reddit soon and we can have discussions in those forums.
+
+edit: the [hackernews discussion](https://news.ycombinator.com/item?id=5757047)
