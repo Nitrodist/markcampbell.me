@@ -45,7 +45,7 @@ To know what the limits should be, you need to follow a few guidelines:
 
 1. Work the amount of hours you agreed to with your employer
 2. Work at the same time as your team
-3. Work during an period that overlaps with your team if #2 fails
+3. Work during a period that overlaps with your team if #2 fails
 
 That's it! I wouldn't recommend working off-hours as the turn-around time to get issues resolved from your co-workers suddenly turns from a few minutes to 8+ hours (whenever your team is online next). If you're developing solo, do the development work when your stakeholders in the project are available.
 
