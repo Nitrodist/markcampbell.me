@@ -7,7 +7,7 @@ title: Mark Campbell - Ruby Enthusiast
   <h1>Blog Posts</h1>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+      <li><div style="display: inline-block;"><span>{{ post.date | date_to_string }}</span></div> &raquo; <div style="display: inline-block;"><a href="{{ post.url }}">{{ post.title }}</a></div></li>
     {% endfor %}
   </ul>
 </div>
