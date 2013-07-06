@@ -8,7 +8,7 @@ categories: jekyll update
 5-1109 Queen St. E.  
 Toronto, ON M4M 1K7  
 mobile: 647-907-5792  
-email: me@markcampbell.me
+email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
 
@@ -19,6 +19,15 @@ email: me@markcampbell.me
 * Co-founder of ArrangeMySeat (<a href="https://arrangemyseat.com">https://arrangemyseat.com</a>)  built using Ruby on Rails and JavaScript
 
 ## Experience
+
+**Ruby on Rails Developer**
+*theScore,* Toronto, Canada  
+June 2013 - Current
+
+* Developing the Rails API that theScore's mobile devices (Android, iPhone, etc.) consume
+* Maintenance of the push alerts that are pushed to mobile devices
+* Working in a legacy python project to consume data from providers
+* Implementing AngularJS-based administrative interfaces
 
 **Ruby on Rails Developer**
 *Wave Accounting Inc.,* Toronto, Canada  
@@ -93,6 +102,7 @@ January 2009 - Current
   <li>Beanstalk</li>
   <li>Git</li>
   <li>SVN</li>
+  <li>Python</li>
   <li>C#</li>
   <li>Bash/Ksh</li>
 </ul>
