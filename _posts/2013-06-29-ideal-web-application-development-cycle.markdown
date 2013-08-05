@@ -7,7 +7,7 @@ categories: tutorial
 
 So you're a web application developer working alongside a bunch of other developers. You're a part of a team! Every workplace has their own way of doing things and being a part of a team usually means that the team you're working on is **your** team.  Exposure to other teams or companies and how they do things is not a common occurrence. In fact, I know of a company that recently moved off CVS!
 
-Sharing what knowledge I know about the development cycle is **key** to your success and, surprisingly, my success.  Developing a product is difficult and when you're working on that team you're isolated from seeing other solutions to problems. Sharing what I have starts a topic of interest and openly discussing it gives everyone better ideas on how to do things.
+Sharing what knowledge I know about the development cycle is **key** to your success and, surprisingly, my success.  Developing a product is difficult and when you're working on a team you're isolated from seeing other solutions to problems. Sharing what I have starts a topic of interest and openly discussing it gives everyone better ideas on how to do things.
 
 Over the past couple years I've worked at [Wave](https://www.waveapps.com/), with [Nathan Bertram](http://trueperspective.net/) on [ArrangeMySeat](https://arrangemyseat.com), and, most recently, at [theScore](http://www.thescore.com/). In each environment, I've found that we've used or ended up with a really effective, easy, and low-friction development cycle. Here is the ideal development cycle that I know of.
 
