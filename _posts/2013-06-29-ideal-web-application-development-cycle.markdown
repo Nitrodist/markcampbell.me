@@ -7,33 +7,33 @@ categories: tutorial
 
 So you're a web application developer working alongside a bunch of other developers. You're a part of a team! Every workplace has their own way of doing things and being a part of a team usually means that the team you're working on is **your** team.  Exposure to other teams or companies and how they do things is not a common occurrence. In fact, I know of a company that recently moved off CVS!
 
-Sharing what knowledge I know about the development cycle is **key** to your success and, surprisingly, my success.  Developing a product is difficult and when you're working on a team you're isolated from seeing other solutions to problems. Sharing what I have starts a topic of interest and openly discussing it gives everyone better ideas on how to do things.
+Sharing what knowledge I know about the development cycle is **key** to your success and, surprisingly, my success.  Developing a product is difficult and when you're working on a team you're isolated from seeing other solutions to problems. Openly sharing what I have starts a discussion and gives everyone better ideas on how to do things.
 
-Over the past couple years I've worked at [Wave](https://www.waveapps.com/), with [Nathan Bertram](http://trueperspective.net/) on [ArrangeMySeat](https://arrangemyseat.com), and, most recently, at [theScore](http://www.thescore.com/). In each environment, I've found that we've used or ended up with a really effective, easy, and low-friction development cycle. Here is the ideal development cycle that I know of.
+Over the past couple years I've worked at [Wave](https://www.waveapps.com/), with [Nathan Bertram](http://trueperspective.net/) on [ArrangeMySeat](https://arrangemyseat.com), and, most recently, at [theScore](http://www.thescore.com/). In each environment, I've found that we've used or ended up with a really effective, easy, and low-friction development cycle. Here is what I know about the ideal development cycle from my experiences.
 
 ## Overview of the Flow
 
-To give you an idea of the whole process, here's just an overview of the steps:
+To give you an idea of the whole process, here's an overview of the steps:
 
-1. Track everything about the feature/bug in a issue tracker
+1. Track everything about a feature/bug in a issue tracker
 2. Isolate work per feature/bug in a branch based off master
-3. Tests that accompany the feature/bug
-4. Pull request and 2 other engineers code reviewing feature/bug
-5. [CI](https://en.wikipedia.org/wiki/Continuous_integration) server's build for the feature/bug branch must be green
-6. QA
-7. Once feature/bug is merged into master, the CI server's build must be passing before deploy
+3. Tests that accompany a feature/bug
+4. Create a pull request and have two other engineers code review it
+5. Having your [CI](https://en.wikipedia.org/wiki/Continuous_integration) server build your project
+6. Formal QA
+7. Merge and ensure that the CI server's build is passing
 8. Deploy
 
 ### Issue Tracker for Features *and* Bugs
 
 Communication is key within a team. Another important aspect is the ability to remember what needs to be done. Keeping track of a feature/bug within an issue tracker does **both**! Consider this:
 
-1. The entire history of the feature/bug is communicated to your team
-2. Everything that was agreed upon about the feature/bug is recorded
-3. There's *one* authoritative place for the planning, status, and execution of features/bugs
-4. You can refer to the feature/bug by simply linking to it
+* The entire history of the feature/bug is communicated to your team
+* Everything that was agreed upon about the feature/bug is recorded
+* There's *one* authoritative place for the planning, status, and execution of features/bugs
+* You can refer to the feature/bug by simply linking to it
 
-An issue tracker lets you record ideas. An issue tracker doesn't take a two week vacation! Instead of saying "wouldn't it be great if..." and then trying to remember the next-day/week/month what was said, you can look up exactly what was said about it! Being able to work on features/bugs when people are offline is awesome (and increases the [bus factor](http://en.wikipedia.org/wiki/Bus_factor)).
+An issue tracker lets you record ideas. An issue tracker doesn't take a two week vacation! Instead of saying "wouldn't it be great if..." and then trying to remember the next day/week/month what was said, you can look up exactly what was said about it! Being able to work on features/bugs when people are offline is awesome (and increases the [bus factor](http://en.wikipedia.org/wiki/Bus_factor)).
 
 Compartmentalizing work so that you can think and focus on distinct features/bugs not only helps yourself, but your co-workers and managers (such as project managers) who need high visibility on each feature/bug. As soon as your project managers can see how fast and what work is getting done, then the planning within your team on what can get accomplished becomes more realistic.
 
@@ -85,7 +85,7 @@ Having at least two other engineers look over your code and improve it ensures t
 
 Welcome the criticism from your colleagues and start discussing the problems and solutions. Developing software is a creative process with hundreds if not thousands of ways of solving problems. Your colleagues words help **you**.
 
-### QA
+### Formal QA
 
 A QA process acts similarly to the pull request process detailed above. However, the people who are poking at your code aren't necessarily going to be developers. What they do is try to approach it from a high-level and catch any corner-cases that you might have missed.
 
