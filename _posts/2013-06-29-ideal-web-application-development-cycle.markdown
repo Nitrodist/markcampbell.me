@@ -50,7 +50,7 @@ There are tons of others out there, but I've found JIRA to be the go-to replacem
 
 For each feature/bug you work on, have only **one** branch for it. Once the branch is 'done', it will be merged into the master branch (read: production) and can then be safely removed. [Atlassian has some words](http://www.atlassian.com/git/workflows#!workflow-feature-branch) to say about this. Even [GitHub follows this method](http://scottchacon.com/2011/08/31/github-flow.html).
 
-Having each feature in its own branch allows for a few things:
+Having each feature/bug in its own branch allows for a few things:
 
 * Master can be kept in a buildable and production-ready state
 * Stuff in development (read: broken) stays out of master
@@ -77,11 +77,11 @@ Sometimes you need to write a quick-and-dirty solution without tests. Just remem
 
 ### Pull Request and Code Review
 
-A [pull request](https://help.github.com/articles/using-pull-requests) is a request to merge the feature/bug fix into master.  The pull request should be reviewed by at least two other engineers on your team (if you have at least two others, of course -- one code reviewer will work as well). If the bug fix or feature is approved, then you're ready to merge it into master!
+A [pull request](https://help.github.com/articles/using-pull-requests) is a request to merge the feature/bug fix into master.  The pull request should be reviewed by at least two other engineers on your team (if you have at least two others, of course -- one code reviewer will work in a pinch). If the bug fix or feature is approved, then you're ready to merge it into master!
 
 The pull request gives visibility about what *exactly* is going to be changed in the product to fix the bug or implement the feature.  Reverting the merge is also available later if the code that you merged turned out to not be good! Having to hunt down all the commits to fix a bad bug fix or feature implementation can result in bugs especially if you're in a hurry because the code made it to production.
 
-Having at least two other engineers look over your code and improve it ensures that the code quality in the project is higher. Good engineers don't let other engineers merge bad code! Getting feedback and growing as a developer and collective team is important to producing the correct product and growing as a professional developer.
+Having at least two other engineers look over your code and improve it ensures that the code quality in the project is higher. Good engineers don't let other engineers merge bad code! Getting feedback and growing as a developer and team is important to producing the correct product and growing as a professional developer.
 
 Welcome the criticism from your colleagues and start discussing the problems and solutions. Developing software is a creative process with hundreds if not thousands of ways of solving problems. Your colleagues words help **you**.
 
@@ -104,13 +104,13 @@ Here are the times when the CI server should build the project:
 * Every time someone commits on master
 * Every time someone merges into master (same as above)
 
-Other than reliability, the **confidence** for developers and ease of mind is *very* important. Having an automatic build means that a developer doesn't have to remember every time to run all the tests (although, they should if the tests run quickly enough). Running tests tends to correlate with the amount of time playing ping pong, depending on the length of your tests!
+Other than reliability, the **confidence** for developers and ease of mind is *very* important. Having an automatic build means that a developer isn't responsible for running the tests (although, they should be running them locally if the tests run quickly enough). Running tests tends to correlate with the amount of time playing foosball, depending on the length of your tests!
 
 ### Deploy
 
-OK, you've gone through the process of fixing the feature/bug. Your fellow developers have given you the thumbs up. The fix for the feature/bug has been shown to the stakeholder. QA has given their stamp of approval. Master is green after you've merged it in. Master should **always** be deployable, so... deploy! Deploy it to production! Do it now!
+OK, you've gone through the whole process up to this point. Your fellow developers have given you the thumbs up. The fix for the feature/bug has been shown to the stakeholder. QA has given their stamp of approval. Master is green after you've merged it in. Master should **always** be deployable, so... deploy! Deploy it to production! Do it now!
 
-Having the confidence to deploy to production with whatever is in master is a godsend. New fixes or features being merged in means that they can be actually *used* by your customers right away instead of having to fix broken stuff in master.
+Having the confidence to deploy to production with whatever is in master is a godsend. New bug fixes or features being merged in means that they can be actually *used* by your customers right away instead of having to fix broken stuff in master.
 
 Working on a web application gives you the freedom to constantly update the app. There's no such thing as a 'release' as you can release new versions of your software many times a day if you want! If you've developed desktop software or apps for iPhone or Android (etc.), then you realize that you can't always rely on this. Cherish it while you can!
 
