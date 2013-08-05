@@ -33,7 +33,7 @@ Communication is key within a team. Another important aspect is the ability to r
 * There's *one* authoritative place for the planning, status, and execution of features/bugs
 * You can refer to the feature/bug by simply linking to it
 
-An issue tracker lets you record ideas. An issue tracker doesn't take a two week vacation! Instead of saying "wouldn't it be great if..." and then trying to remember the next day/week/month what was said, you can look up exactly what was said about it! Being able to work on features/bugs when people are offline is awesome (and increases the [bus factor](http://en.wikipedia.org/wiki/Bus_factor)).
+An issue tracker lets you record ideas. An issue tracker doesn't take a two week vacation! Instead of saying "wouldn't it be great if..." and then trying to remember the next day/week/month what was said, you can look up exactly what was said about it! Being able to work on features/bugs when people are unavailable is awesome (and increases the [bus factor](http://en.wikipedia.org/wiki/Bus_factor)).
 
 Compartmentalizing work so that you can think and focus on distinct features/bugs not only helps yourself, but your co-workers and managers (such as project managers) who need high visibility on each feature/bug. As soon as your project managers can see how fast and what work is getting done, then the planning within your team on what can get accomplished becomes more realistic.
 
