@@ -50,12 +50,12 @@ There are tons of others out there, but I've found JIRA to be the go-to replacem
 
 For each feature/bug you work on, have only **one** branch for it. Once the branch is 'done', it will be merged into the master branch (read: production) and can then be safely removed. [Atlassian has some words](http://www.atlassian.com/git/workflows#!workflow-feature-branch) to say about this. Even [GitHub follows this method](http://scottchacon.com/2011/08/31/github-flow.html).
 
-Having each feature into their own branch allows for a few things:
+Having each feature in its own branch allows for a few things:
 
-1. Master can be kept in a buildable and production-read state
-2. Stuff in development (read: broken) stays out of master
-3. Once work is done, all that needs to happen  is a merge into master
-4. Development on other features/bugs isn't waylaid by this branch
+* Master can be kept in a buildable and production-ready state
+* Stuff in development (read: broken) stays out of master
+* Once work is done, all that needs to happen  is a merge into master
+* Development on other features/bugs isn't waylaid by this branch
 
 ### Tests for the Feature/Bug
 
