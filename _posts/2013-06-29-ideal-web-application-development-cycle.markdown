@@ -69,7 +69,7 @@ An easy way to accomplish this requirement for the feature/bug you're working on
 4. Demonstration that the code you're writing is working to non-technical personnel (with [cucumber](http://cukes.info/))
 5. Testable code
 
-Having a test that exercises the code generally results in a higher code quality. Writing testable code makes maintenance a lot easier. The code is cleaner, easier to work with, more obvious, and now you're ensuring that the behaviour isn't broken by future changes.
+Having a test that exercises the code generally results in higher code quality. Writing testable code makes maintenance a lot easier. The code is cleaner, easier to work with, more obvious, and now you're ensuring that the behaviour isn't broken by future changes.
 
 Another goal of your project is to actively make your project better over time (read: actively less shitty). Tested code exposes code smells and bad code. 
 
