@@ -61,10 +61,10 @@ Having each feature in its own branch allows for a few things:
 
 Testing is vital to the success of a project. Keeping a suite of tests that ensures that the behaviour of the software isn't degrading is an important aspect of software development. More importantly, testing gives you **confidence** in the software you're developing.
 
-An easy way to accomplish this requirement for the feature/bug you're working on is to write a test that covers the feature/bug first that fails. This is called [test-driven development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development). This gives you a few things:
+An easy way to accomplish this requirement for the feature/bug you're working on is to first write a failing test that covers the feature/bug. This is called [test-driven development (TDD)](http://en.wikipedia.org/wiki/Test-driven_development). This gives you a few things:
 
 1. Assurance that you are definitely solving the feature/bug
-2. Protection against the feature breaking or the bug regression
+2. Protection against the feature breaking or the bug regressing
 3. Demonstration that the code you're writing is working to your colleagues
 4. Demonstration that the code you're writing is working to non-technical personnel (with [cucumber](http://cukes.info/))
 5. Testable code
