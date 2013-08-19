@@ -116,4 +116,4 @@ Working on a web application gives you the freedom to constantly update the app.
 
 ## Closing Remarks
 
-I hope you've enjoyed this article! I want to hear your feedback and discussion. (insert links to reddit/hackernews here) Hit me up on [Twitter](https://twitter.com/Nitrodist)
+I hope you've enjoyed this article! I want to hear your feedback and discussion. Here are the [hackernews](https://news.ycombinator.com/item?id=6238065) and [reddit](http://www.reddit.com/r/programming/comments/1koa0c/the_ideal_web_application_development_cycle/) [links](http://www.reddit.com/r/webdev/comments/1koa3v/the_ideal_web_application_development_cycle/).  Hit me up on [Twitter](https://twitter.com/Nitrodist)
