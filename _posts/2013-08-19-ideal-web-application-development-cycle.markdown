@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Ideal Web Application Development Cycle"
-date:   2013-06-29 13:00:00
+date:   2013-08-19 08:00:00
 categories: tutorial
 ---
 
