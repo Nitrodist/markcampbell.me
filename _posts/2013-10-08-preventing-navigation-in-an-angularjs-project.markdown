@@ -178,4 +178,4 @@ Notice how it's using the same `_preventNavigation` and `_preventNavigationUrl` 
 
 Hopefully you got something out of this. Let me know what you think (or how wrong I am!) by hitting me up on [twitter](https://twitter.com/Nitrodist) or emailing me.
 
-There's also a [reddit post](http://markcampbell.me/tutorial/2013/10/08/preventing-navigation-in-an-angularjs-project.html) that you can use to discuss the article (and I'll answer questions in there too!).
+There's also a [reddit post](http://www.reddit.com/r/angularjs/comments/1o0rsm/preventing_navigation_in_an_angularjs_project/) that you can use to discuss the article (and I'll answer questions in there too!).
