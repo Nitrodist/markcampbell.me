@@ -40,11 +40,11 @@ Standups are more than "I worked on 'foo' yesterday, going to work on 'bar' toda
 
 Each person's bit should ideally be **one to two minutes long**. If it takes more than that, then either the person is being too verbose or the important bits of information must be the stuff of revelations and deserves its own set of time outside of the stand-up to fully communicate it to the rest of the team.
 
-Succinctly compiling the important information to other people on yoru team forces you to think critically about what you did yesterday.
+Succinctly compiling the important information to other people on your team forces you to think critically about what you did yesterday.
 
 ### Listening
 
-Stand-ups are facetime in which you're forced to listen to other people on yoru team. Use this time to listen *critically*. The more I program, the more I realize that I have a lot to gain from my teammates.
+Stand-ups are facetime in which you're forced to listen to other people on your team. Use this time to listen *critically*. The more I program, the more I realize that I have a lot to gain from my teammates.
 
 ## Closing remarks
 
