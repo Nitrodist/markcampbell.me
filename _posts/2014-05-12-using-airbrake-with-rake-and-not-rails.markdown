@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using Airbrake with Rack and not Rails"
+title:  "Using Airbrake with Rake and not Rails"
 date:   2014-05-12 18:00:00
 categories: tutorial
 ---
