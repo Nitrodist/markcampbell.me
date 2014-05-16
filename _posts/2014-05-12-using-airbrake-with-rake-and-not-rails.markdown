@@ -27,3 +27,5 @@ end
 {% endhighlight %}
 
 I've [raised the issue](https://github.com/airbrake/airbrake/issues/292) on Airbrake's github. Feel free to visit the link and weigh in!
+
+**Update:** a solution that forces the user to deal with this oversight has [been created](https://github.com/airbrake/airbrake/pull/294) (by me!).
