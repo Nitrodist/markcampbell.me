@@ -60,7 +60,7 @@ While I think the most important aspect is communication, being able to apply sp
 
 Does the problem have you stumped? Try thinking about it from a different perspective. Put yourself in their shoes and start asking yourself what's important and what's not important with regards to the problem at hand. You can use this technique to come up with missing functionality and to come up with unique solutions.
 
-A great example of this is a probelm like refactoring code. From a product owner perspective, refactoring code has no direct benefit, and yet they know that there are future benefits to refactoring the code into something more easy to work with. Conversely, your team would love someone to give the code some TLC because eventually they'll have to change some behaviour in the affected code.
+A great example of this is a problem like refactoring code. From a product owner perspective, refactoring code has no direct benefit, and yet they know that there are future benefits to refactoring the code into something more easy to work with. Conversely, your team would love someone to give the code some TLC because eventually they'll have to change some behaviour in the affected code.
 
 What if you thought about this from the perspective of someone who wasn't a programmer? You may find simple solutions to the problems that are presented to you. For example, the person might have ended up going with a simple spreadsheet in Excel. That ends up being a lot more maintainable than a MySQL database + Rails + Web Server. Even if it needs to be online and concurrently accessed, Google Docs Spreadsheets fills this niche!
 
