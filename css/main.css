@@ -134,6 +134,26 @@ ul.posts span {
   border: 0;
 }
 
+.circular {
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+}
+
+.headshot {
+  background: url(/images/headshot.jpg) no-repeat;
+  background-size: 100% 100%;
+  float: right;
+}
+
+.contact_image {
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
