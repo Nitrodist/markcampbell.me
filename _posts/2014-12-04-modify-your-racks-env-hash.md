@@ -10,7 +10,7 @@ excerpt: |
 
 author:
   name: Mark Campbell
-  link: https://markcampbell.me
+  link: http://markcampbell.me
 ---
 
 *[originally appearing on theScore's blog](http://techblog.thescore.com/2014/12/04/modify-your-racks-env-hash/)*
