@@ -1,5 +1,5 @@
 name: Ruby and other things!
-pygments: true
+highlighter: true
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "Procfile", "README.md", '404.html']
 markdown: kramdown
 url: http://markcampbell.me
