@@ -14,48 +14,36 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
+  font: 105% "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-top: 2em;
+h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
+  margin: 1em 2em 1em 10%;
 }
 
-ul {
-  margin-top: 1em;
+p, ul, ol {
+  width: 42em;
 }
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
-
-a         { color: #00a; }
+a         { color: #A00; }
 a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:visited { color: #006D94; }
 
 table {
   font-size: inherit;
-  font: 100%;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+table.posts {
+  margin-left: 10%;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+.posts-index-row > td {
+  padding-bottom: 0.5em;
 }
 
-ul.posts span {
+.posts-index-date {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+  text-transform: uppercase;
   font-size: 80%;
 }
 
@@ -65,49 +53,34 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
-.container {
-  padding: 2em;
+h1.title {
+  margin-top: 2em;
+  display: inline;
 }
 
-.site {
-  font-size: 115%;
-  text-align: justify;
-  max-width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em;
-}
-
-.site .header a {
-  font-weight: bold;
+h1.title a {
+  color: #a00;
   text-decoration: none;
 }
 
-.site .header h1.title {
-  display: inline-block;
-}
-
-.site .header h1.title a {
-  color: #a00;
-}
-
-.site .header h1.title a:hover {
+h1.title a:hover {
   color: #000;
 }
 
-.site .header a.extra {
+a.extra {
   color: #aaa;
   margin-left: 1em;
 }
 
-.site .header a.extra:hover {
+a.extra:hover {
   color: #000;
 }
 
-.site .meta {
+.meta {
   color: #aaa;
 }
 
-.site .footer {
+.footer {
   font-size: 80%;
   color: #666;
   border-top: 4px solid #eee;
@@ -115,23 +88,12 @@ ul.posts span {
   overflow: hidden;
 }
 
-.site .footer .contact {
-  float: left;
+.footer .contact {
   margin-right: 3em;
 }
 
-.site .footer .contact a {
+.footer .contact a {
   color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
 }
 
 .circular {
@@ -143,9 +105,11 @@ ul.posts span {
 }
 
 .headshot {
+  margin-top: 2em;
   background: url(/images/headshot.jpg) no-repeat;
   background-size: 100% 100%;
-  float: right;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .contact_image {
@@ -154,41 +118,35 @@ ul.posts span {
   height: 30px;
 }
 
+#disqus_thread {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 /*****************************************************************************/
 /*
 /* Posts
 /*
 /*****************************************************************************/
 
-/* standard */
-#post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
-  overflow-x: auto;
+#post * {
+  padding: inherit 2em;
+}
+
+#post .highlight {
+  background-color:#3f3f3f;
 }
 
 #post ul, #post ol {
-  margin-left: 1.35em;
+  list-style-position: inside;
 }
 
-#post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-}
-
-#post pre code {
-  border: none;
-}
-
-/* terminal */
-#post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF;
-}
-
-#post pre.terminal code {
-  background-color: #333;
+#post pre {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  width: 100%;
+  margin: 0 0 0 10%;
+  padding-left: 0;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  overflow-x: auto;
 }

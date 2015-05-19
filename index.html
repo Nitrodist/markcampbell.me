@@ -3,18 +3,16 @@ layout: default
 title: Mark Campbell - Ruby Enthusiast
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-    <li>
-      <div style="display: inline-block;">
-        <span>{{ post.date | date_to_string }}</span>
-      </div>
-      <div style="display: inline-block;">
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<h1>Blog Posts</h1>
+<table class="posts">
+  {% for post in site.posts %}
+  <tr class="posts-index-row">
+    <td class="posts-index-date">
+      {{ post.date | date: "%b %Y" }}
+    </td>
+    <td>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </td>
+  </tr>
+  {% endfor %}
+</table>
