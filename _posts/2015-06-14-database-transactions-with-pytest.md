@@ -23,7 +23,37 @@ To fix this, I ended up using the `norecursedirs` option. This option tells pyte
 norecursedirs = .git vendor my-project/lib my-project/helpers docs config log tmp\*
 {% endhighlight %}
 
-If you follow a [standard-ish way python projects are structured](http://stackoverflow.com/a/5998845/269694), then you can enumerate all of the directories in my-project except `tests`. The reason why this is necessary is because norecursedirs matches apply to every file, so say, using the above example, you wanted to have a directory called `config` in `my-project/tests/config/my_test.py`, you can't because `config` is somewhere in the path.
+Note, if you put `vendor`, then make sure you don't have a directory like `tests/vendor/` because it will be ignored:
+
+{% highlight sh %}
+$ cat setup.cfg
+[pytest]
+norecursedirs = config
+
+$ tree
+.
+├── config
+│   └── file.json
+├── file_name.py
+├── setup.cfg
+└── tests
+    ├── config
+    │   └── my_test.py
+    └── my_test.py
+
+4 directories, 6 files
+
+$ py.test --collect-only
+======= test session starts =======
+platform darwin -- Python 2.7.9 -- py-1.4.27 -- pytest-2.6.4
+collected 1 items
+<Module 'tests/my_test.py'>
+  <Class 'Test'>
+    <Instance '()'>
+      <Function 'test_foo'>
+{% endhighlight %}
+
+Anyway, buyer be warned!
 
 To solve #2, it got... a bit tricky. We utilized standard xUnit style tests, so our tests would look like this:
 
