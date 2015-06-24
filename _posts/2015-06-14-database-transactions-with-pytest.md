@@ -6,7 +6,7 @@ title: Database Transactions With pytest
 
 For past few years I've been primarily a ruby programmer. In the ruby ecosystem, testing is seen as pretty important and I wanted to have the same tooling in python.
 
-[Where I work](http://mobile.thescore.com/), we use primarily use rspec in conjunction with Rails. The combo comes with a few things by default:
+[Where I work](http://mobile.thescore.com/), we primarily use rspec in conjunction with Rails. The combo comes with a few things by default:
 
 1. Test discovery under `spec/` or `test/`
 2. Automatic database transaction support per test
