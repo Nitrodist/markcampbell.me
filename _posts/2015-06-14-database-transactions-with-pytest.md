@@ -11,7 +11,7 @@ For past few years I've been primarily a ruby programmer. In the ruby ecosystem,
 1. Test discovery under `spec/` or `test/`
 2. Automatic database transaction support per test
 
-We have a old, custom Python project that I've been working with and slowly modernizing. The need to unit tests came up and I evaluated a few options. I ended up choosing [pytest](https://pytest.org/) as it seemed to be most modern and popular framework.
+We have a old, custom python project that I've been working with and slowly modernizing. The need to unit tests came up and I evaluated a few options. I ended up choosing [pytest](https://pytest.org/) as it seemed to be most modern and popular framework.
 
 By default, pytest is configured to discover tests in *all* directories and subdirectories. So, while it does work, it can be slow (because it crawls everything) and it can discover tests that it shouldn't (such as a vendored code).
 
