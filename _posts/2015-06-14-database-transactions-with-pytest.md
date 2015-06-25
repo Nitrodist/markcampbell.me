@@ -11,11 +11,11 @@ For past few years I've been primarily a ruby programmer. In the ruby ecosystem,
 1. Test discovery under `spec/` or `test/`
 2. Automatic database transaction support per test
 
-We have a old, custom python project that I've been working with and slowly modernizing. The need to unit tests came up and I evaluated a few options. I ended up choosing [pytest](https://pytest.org/) as it seemed to be most modern and popular framework.
+We have a old, custom python project that I've been working with and slowly modernizing. The need for unit tests came up and I evaluated a few options. I ended up choosing [pytest](https://pytest.org/) as it seemed to be most modern and popular framework.
 
 By default, pytest is configured to discover tests in *all* directories and subdirectories. So, while it does work, it can be slow (because it crawls everything) and it can discover tests that it shouldn't (such as a vendored code).
 
-To fix this, I ended up using the `norecursedirs` option. This option tells pytest which directories *not* to recurse into (no option exists to tell it to only go into certain directories). Here's a sample config:
+I worked around this issue by using the `norecursedirs` option. This option tells pytest which directories *not* to go into (no option exists to tell it to only go into certain directories). Here's a sample config:
 
 {% highlight ini %}
 # setup.cfg
@@ -55,7 +55,7 @@ collected 1 items
 
 Anyway, buyer be warned!
 
-To solve #2, it got... a bit tricky. We utilized standard xUnit style tests, so our tests would look like this:
+To solve #2 (automatic database transaction support per test), it got... a bit tricky. We utilized standard xUnit style tests, so our tests would look like this:
 
 {% highlight python %}
 class TestWidget:
@@ -94,7 +94,7 @@ class TestWidget(BaseTest):
 
 {% endhighlight %}
 
-This works for the most part, except that `teardown_method` does not get called if something failed in `setup_method` [by design since pytest 2.4](https://pytest.org/latest/announce/release-2.4.0.html) (see 'issue322'). This means that `orm.session.rollback()` had a chance to not be called.
+This works for the most part, except that `teardown_method` does not get called if something failed in `setup_method` [by design since pytest 2.4](https://pytest.org/latest/announce/release-2.4.0.html) (see 'issue322'). This means that `orm.session.rollback()` might not be called.
 
 ### Enter Pytest Fixtures
 
