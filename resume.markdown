@@ -12,12 +12,24 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 ## Profile
 
 * Ruby and Ruby on Rails developer for five years
-* Organizer for the [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/) to run the monthly Hack Nights
+* Runs the monthly 'Hack Night and Workshop' at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 * Technically proficient in many programming languages and comfortable in Linux/Unix environments
 * Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
 * Founding member of the Winnipeg Hackerspace *SkullSpace* (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
 
 ## Experience
+
+**Software Development Team Lead**
+*theScore,* Toronto, Canada  
+June 2015 - Current
+
+* 'Go-to person' for many issues due to breadth and depth of knowledge of systems at theScore
+* Technical recruitment of new employees to the company
+* Speaker on multiple occasions for the Ruby Tech Talks in Toronto
+* Solving long-term technical debt
+* Leading a team of 5 developers across various projects
+* Mentorship and onboarding of new employees onto team
+* Continued software development duties
 
 **Ruby on Rails Developer**
 *theScore,* Toronto, Canada  
@@ -25,8 +37,14 @@ June 2013 - Current
 
 * Developing the JSON API that theScore's mobile devices (Android, iPhone, etc.) consume
 * Working effectively with a legacy python project to consume data from providers and to eliminate its technical debt
-* Maintenance of the push alerts that are pushed to mobile devices
+* Working with push alerts (millions of devices, 1+ billion messages per month)
+* Queuing systems with beanstalkd and Sidekiq
+* Architecting new applications and testing infrastructure
+* Caching strategies from CDNs (CloudFront/Akamai) to Varnish HTTP caching to fragment caching within Rails
 * Implementing AngularJS based administrative interfaces
+* Experienced with Splunk for operational alerts and ad-hoc reports
+* Augmenting server deployments using Ansible
+* Working with various AWS components
 
 **Ruby on Rails Developer**
 *Wave Accounting Inc.,* Toronto, Canada  
@@ -46,6 +64,7 @@ October 2011 - December 2014
 
 * Co-founded a seating arrangement web-application with Nathan Bertram (<a href="http://about.me/nathanbertram">http://about.me/nathanbertram</a>)
 * Uses Ruby on Rails and JavaScript to deliver a complete Eventbrite-like experience with seating choices in mind
+* Seating plan designer built in Raphaël JS
 * Integrated with PayPal to remit money to event organizers
 
 **System/Database Administrator**
@@ -84,8 +103,9 @@ January 2009 - December 2014
   <ul>
     <li>Ruby</li>
     <li>Ruby on Rails</li>
+    <li>AWS</li>
     <li>JavaScript</li>
-    <li>CoffeeScript</li>
+    <li>Splunk & ELK</li>
     <li>Cucumber</li>
     <li>MySQL</li>
     <li>PostgreSQL</li>
@@ -96,9 +116,10 @@ January 2009 - December 2014
 <div class="tech_langs">
   <ul>
     <li>Redis</li>
+    <li>Sidekiq</li>
     <li>RSpec</li>
     <li>Capybara</li>
-    <li>Beanstalk</li>
+    <li>Beanstalkd</li>
     <li>Git</li>
     <li>SVN</li>
     <li>Python</li>
@@ -108,9 +129,10 @@ January 2009 - December 2014
 </div>
 <div class="tech_langs">
   <ul>
+    <li>Ansible</li>
     <li>TDD</li>
     <li>BDD</li>
-    <li>Agile</li>
+    <li>Agile and Scrum</li>
     <li>MVC</li>
     <li>Sinatra</li>
     <li>Vim</li>
