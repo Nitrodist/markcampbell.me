@@ -279,5 +279,5 @@ Not sure what they were for, but they were there!
 
 ## Conclusion
 
-It was a lot of fun figuring out this puzzle and I got a cool keepsake at the end of it. Next year's BSides Winnipeg is going to be a CTF exclusively and the 2017 edition will be a conference. See all of you there next year!
+It was a lot of fun figuring out this puzzle and I got a cool keepsake at the end of it. I also got [a sweet signed copy of 'Spam Nation' by Brian Krebs](https://twitter.com/Elmwoodie/status/666000022249410560) as a prize! Next year's BSides Winnipeg is going to be a CTF exclusively and the 2017 edition will be a conference. See all of you there next year!
 
