@@ -62,7 +62,7 @@ $ hexdump coin_text_base64_decoded.txt
 
 The image inside of the coin has a C-clamp/vise -- maybe this indicates that it's compressed?
 
-Files usually have certain byte sequences at the beginning or end of the file. The first 8 bytes are this: `78 9c`. I ended up googling it and the first result was this Stack Overflow question: "[What does a zlib header look like?](http://stackoverflow.com/questions/9050260/what-does-a-zlib-header-look-like)" -- sounds like we have a zlib bytestream! As it turns out, `78 9c` is the byte sequence for 'Default compression' in zlib.
+Files usually have certain byte sequences at the beginning or end of the file. The first four [nibbles](https://en.wikipedia.org/wiki/Nibble) are this: `78 9c`. I ended up googling it and the first result was this Stack Overflow question: "[What does a zlib header look like?](http://stackoverflow.com/questions/9050260/what-does-a-zlib-header-look-like)" -- sounds like we have a zlib bytestream! As it turns out, `78 9c` is the byte sequence for 'Default compression' in zlib.
 
 ## Step 3 - decompress the bytestream
 
@@ -113,7 +113,7 @@ No errors! Seems like we're on the right track.
 
 ## Step 4 - find the QR code
 
-Hmm... seems kind of weird that the text has only these 2-byte sequences in it: `F` `0` `3` `C`.
+Hmm... seems kind of weird that the text has only these nibbles in it: `F` `0` `3` `C`.
 
 Say that they translate to these sequences based on binary:
 
@@ -122,7 +122,7 @@ Say that they translate to these sequences based on binary:
 * Hexadecimal: `3` Binary: `0011` Decimal: `3`
 * Hexadecimal: `C` Binary: `1100` Decimal: `13`
 
-We could probably take the binary output and display it somehow! Specifically, we'll only display the `11` and `00` [nibbles](https://en.wikipedia.org/wiki/Nibble) (half-octet).
+We could probably take the binary output and display it somehow! Specifically, we'll only display the `11` and `00` half-nibbles.
 
 Let's clean up the output a bit before we do anything else:
 
@@ -169,7 +169,7 @@ $ python decompress_zlib.py | hexdump | perl -pe 's!^........?!!g' | perl -pe 's
 
 Looks weird, doesn't it? OK, let's assume that the image is *square*. What's the nearest square of the characters we have now? Let's count it via the `wc -c` command and make sure to remember to remove any newlines from the `hexdump` command by piping the output to `tr -d '\n'`.
 
-We used 'X's instead of `█` in this case because `wc` thinks each `█` is 2 bytes so that would double the expected number of bytes. Here's how we counted the characters:
+We used 'X's instead of `█` in this case because `wc` thinks each `█` is 2 bytes/characters so that would double the expected number of bytes/characters. Here's how we counted the characters:
 
 ```
 $ python decompress_zlib.py | hexdump | perl -pe 's!^........?!!g' | perl -pe 's! !!g'     | sed 's!f!XXXX!g' | sed 's!c!XX  !g' | sed 's!3!  XX!g' | sed 's!0!    !g' | tr -d '\n' | wc -c
