@@ -62,7 +62,7 @@ $ hexdump coin_text_base64_decoded.txt
 
 The image inside of the coin has a C-clamp/vise -- maybe this indicates that it's compressed?
 
-Files usually have certain byte sequences at the beginning or end of the file. The first 4 bytes are this: `78 9c`. I ended up googling it and the first result was this Stack Overflow question: "[What does a zlib header look like?](http://stackoverflow.com/questions/9050260/what-does-a-zlib-header-look-like)" -- sounds like we have a zlib bytestream! As it turns out, `78 9c` is the byte sequence for 'Default compression' in zlib.
+Files usually have certain byte sequences at the beginning or end of the file. The first 8 bytes are this: `78 9c`. I ended up googling it and the first result was this Stack Overflow question: "[What does a zlib header look like?](http://stackoverflow.com/questions/9050260/what-does-a-zlib-header-look-like)" -- sounds like we have a zlib bytestream! As it turns out, `78 9c` is the byte sequence for 'Default compression' in zlib.
 
 ## Step 3 - decompress the bytestream
 
@@ -113,7 +113,7 @@ No errors! Seems like we're on the right track.
 
 ## Step 4 - find the QR code
 
-Hmm... seems kind of weird that the text has only these bytes in it: `F` `0` `3` `C`.
+Hmm... seems kind of weird that the text has only these 2-byte sequences in it: `F` `0` `3` `C`.
 
 Say that they translate to these sequences based on binary:
 
