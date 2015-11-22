@@ -256,7 +256,7 @@ I used my Android phone with a program called 'QR Droid' to get the text:
 
 ![QR text result](/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/Screenshot_20151118-082609.png "QR text result")
 
-Sweet, we got the flag! Or, specifically, we got `🚩🔜💻`
+Sweet, we got the flag! Or, specifically, we got `flag: 🚩🔜💻`
 
 
 ## Bonus question or something?
