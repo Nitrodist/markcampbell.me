@@ -145,10 +145,17 @@ ffc00cfccc3c0ff33f330f03fccfccfc
 00000de
 ```
 
-Since it's a QR code, let's convert each `11` nibble to two `█` characters and each `00` nibble to two ` ` characters. Here's how to do it with a series of `sed` commands:
+Since it's a QR code, let's convert each `11` half-nibble to two `█` characters and each `00` half-nibble to two ` ` characters. Here's how to do it with a series of `sed` commands:
 
 ```
-$ python decompress_zlib.py | hexdump | perl -pe 's!^........?!!g' | perl -pe 's! !!g' | sed 's!f!████!g' | sed 's!c!██  !g' | sed 's!3!  ██!g' | sed 's!0!    !g'
+$ python decompress_zlib.py | \
+         hexdump | \
+         perl -pe 's!^........?!!g' | \
+         perl -pe 's! !!g' | \
+         sed 's!f!████!g' | \
+         sed 's!c!██  !g' | \
+         sed 's!3!  ██!g' | \
+         sed 's!0!    !g'
 
 ██████████████    ██  ████  ████████████████████████████    ██  ████  ████████████████          ██  ██████      ██          ████
           ██  ██████      ██          ████  ██████  ██    ██████    ██  ██████  ████  ██████  ██    ██████    ██  ██████  ████  
@@ -169,10 +176,19 @@ $ python decompress_zlib.py | hexdump | perl -pe 's!^........?!!g' | perl -pe 's
 
 Looks weird, doesn't it? OK, let's assume that the image is *square*. What's the nearest square of the characters we have now? Let's count it via the `wc -c` command and make sure to remember to remove any newlines from the `hexdump` command by piping the output to `tr -d '\n'`.
 
-We used 'X's instead of `█` in this case because `wc` thinks each `█` is 2 bytes/characters so that would double the expected number of bytes/characters. Here's how we counted the characters:
+We used 'X' characters instead of `█` in this case because `wc` thinks each `█` is 2 bytes/characters so that would double the expected number of bytes/characters. Here's how we counted the characters:
 
 ```
-$ python decompress_zlib.py | hexdump | perl -pe 's!^........?!!g' | perl -pe 's! !!g'     | sed 's!f!XXXX!g' | sed 's!c!XX  !g' | sed 's!3!  XX!g' | sed 's!0!    !g' | tr -d '\n' | wc -c
+$ python decompress_zlib.py | \
+         hexdump | \
+         perl -pe 's!^........?!!g' | \
+         perl -pe 's! !!g'     | \
+         sed 's!f!XXXX!g' | \
+         sed 's!c!XX  !g' | \
+         sed 's!3!  XX!g' | \
+         sed 's!0!    !g' | \
+         tr -d '\n' | \
+         wc -c
 
 1773
 ```
@@ -182,10 +198,18 @@ The nearest square root of `1773` is `42`, so we'll assume that it's a 42x42 ima
 Let's dump the characters to a file (`qr_without_newlines.txt`) so that we can use it more easily:
 
 ```
-$ python decompress_zlib.py | hexdump | perl -pe 's!^........?!!g' | perl -pe 's! !!g'     | sed 's!f!████!g' | sed 's!c!██  !g' | sed 's!3!  ██!g' | sed 's!0!    !g' | tr -d '\n' > qr_without_newlines.txt
+$ python decompress_zlib.py | \
+         hexdump | \
+         perl -pe 's!^........?!!g' | \
+         perl -pe 's! !!g'     | \
+         sed 's!f!████!g' | \
+         sed 's!c!██  !g' | \
+         sed 's!3!  ██!g' | \
+         sed 's!0!    !g' | \
+         tr -d '\n' > qr_without_newlines.txt
 ```
 
-So let's make an image based on newlines after 42 characters (excuse the ruby one-liner):
+So let's print out an image with newlines every 42 characters (excuse the ruby one-liner):
 
 ```
 $ cat qr_without_newlines.txt | ruby -e 'ARGF.read.each_char.with_index{|char, i| if i % 42 == 0; print "\n"; end; print char }'
@@ -280,4 +304,3 @@ Not sure what they were for, but they were there!
 ## Conclusion
 
 It was a lot of fun figuring out this puzzle and I got a cool keepsake at the end of it. I also got [a sweet signed copy of 'Spam Nation' by Brian Krebs](https://twitter.com/Elmwoodie/status/666000022249410560) as a prize! Next year's BSides Winnipeg is going to be a CTF exclusively and the 2017 edition will be a conference. See all of you there next year!
-
