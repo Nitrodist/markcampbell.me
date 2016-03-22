@@ -6,12 +6,12 @@ categories: jekyll update
 # Mark Campbell - Ruby Enthusiast
 
 location: Toronto, ON  
-mobile: 647-907-5792  
+mobile: 647-909-3372  
 email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
 
-* Ruby and Ruby on Rails developer for five years
+* Ruby and Ruby on Rails developer for six years (2010)
 * Runs the monthly 'Hack Night and Workshop' at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 * Technically proficient in many programming languages and comfortable in Linux/Unix environments
 * Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
@@ -20,8 +20,18 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 ## Experience
 
 **Software Development Team Lead**
+*SERMO,* Toronto, Canada  
+January 2016 - Current
+
+* Leading a team of 4 developers in the EST timezone and working with other developers across Europe
+* Delivering new social networking features to doctors on the social network
+* Implemented streamlined deployment strategy à la [GitHub flow](http://scottchacon.com/2011/08/31/github-flow.html)
+* Set up CI system based on pull requests using Jenkins and GitLab
+
+
+**Software Development Team Lead**
 *theScore,* Toronto, Canada  
-June 2015 - Current
+June 2015 - January 2016
 
 * 'Go-to person' for many issues due to breadth and depth of knowledge of systems at theScore
 * Technical recruitment of new employees to the company
