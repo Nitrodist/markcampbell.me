@@ -1,5 +1,7 @@
 name: Ruby and other things!
-highlighter: pygments
+highlighter: rouge
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "Procfile", "README.md", '404.html']
-markdown: redcarpet
 url: http://markcampbell.me
+markdown: kramdown
+kramdown:
+  input: GFM
