@@ -51,6 +51,22 @@ After you've installed it, make sure that your preference pane is set up like th
 
 The last item ('Update Pasteboard immediately when new text is selected') is *not* selected by default which I didn't know was necessary in order to have vim copy to clipboard.
 
+## Setting Vim to use the clipboard
+
+TL; DR: you should have this in your `.vimrc`:
+
+
+```vim
+" yank to clipboard
+if has("clipboard")
+  set clipboard=unnamed " copy to the system clipboard
+
+  if has("unnamedplus") " X11 support
+    set clipboard+=unnamedplus
+  endif
+endif
+```
+
 ## Conclusion
 
 That's it! Feel free to correct me!
