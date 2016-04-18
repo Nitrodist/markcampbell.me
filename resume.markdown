@@ -43,7 +43,7 @@ June 2015 - January 2016
 
 **Ruby on Rails Developer**
 *theScore,* Toronto, Canada  
-June 2013 - Current
+June 2013 - January 2016
 
 * Developing the JSON API that theScore's mobile devices (Android, iPhone, etc.) consume
 * Working effectively with a legacy python project to consume data from providers and to eliminate its technical debt
