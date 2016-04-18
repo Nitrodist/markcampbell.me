@@ -14,7 +14,7 @@ I tried a little bit of Googling which led me to [this article](http://www.andyl
 
 ## The script
 
-First, let's get a cookie (I used a new rails 3.2.22.2 app with a controller that sets the session value `my_variable` to `'my_value`):
+First, let's get a cookie. I used a new rails 3.2.22.2 app with a controller that sets the session value `my_variable` to `my_value`. Here's how to get the cookie using curl:
 
 ```sh
 $ curl -I localhost:3001/ | grep Set-Cookie
