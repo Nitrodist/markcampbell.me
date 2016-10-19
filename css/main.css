@@ -14,7 +14,7 @@ html, body { height: 100%; width: 100%; }
 
 body {
   background-color: #FFF;
-  font: 105% "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 13px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
@@ -129,13 +129,17 @@ a.extra:hover {
 /*
 /*****************************************************************************/
 
+#post {
+  line-height: 20px;
+}
+
 #post div.highlighter-rouge {
   background-color: #3f3f3f;
   width: 100%;
 }
 
 #post ul, #post ol {
-  list-style-position: inside;
+  padding-left: 2em;
 }
 
 #post pre {
@@ -145,5 +149,9 @@ a.extra:hover {
   padding-top: 2em;
   padding-bottom: 2em;
   overflow-x: auto;
-  width: 42em;
+  line-height: 17px;
+}
+
+#post pre code {
+  line-height: 0px;
 }
