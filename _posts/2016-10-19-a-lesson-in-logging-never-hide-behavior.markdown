@@ -4,7 +4,7 @@ layout: post
 title: "A lesson in logging: never hide behavior"
 ---
 
-Recently, I was working on implementing a health check endpoint to one of our rails apps. It is a simple endpoint that basically responds with 200 OK and a JSON response. During the code review process, one of my coworkers brought up the fact that it's quite annoying to be tailing the log and constantly seeing requests for `/lbhealth` (or similar) 'polluting' the log. He then asked to just suppress the messages in the rails log.
+Recently, I was working on implementing a health check endpoint to one of our Rails apps. It is a simple endpoint that basically responds with 200 OK and a JSON response. During the code review process, one of my coworkers brought up the fact that it's quite annoying to be tailing the log and constantly seeing requests for `/lbhealth` (or similar) 'polluting' the log. He then asked to just suppress the messages in the Rails log.
 
 From his point of view, the requests themselves are noise since he's only concerned with the requests made to the webapp (system) that a user would interact with. When he's tasked with debugging some behavior on one of our staging servers, he's met with a large log and more than half of the requests to the app are filled with health check requests. He's quite right in that seeing the requests slows down his ability to just see the relevant information.
 
@@ -16,7 +16,7 @@ Fundamentally, logs provide you with an audit trail of events within your system
 
 Switching your point of view to being someone who is *operating* the system rather than *developing* the system is important. Just because something is noisy does not mean that it does not have value. In our example, the health check is for AWS's Elastic Load Balancer (HAProxy and other load balancers have a similar function). A successful response from the endpoint means that the individual web server is capable of accepting web traffic. If it returns anything other than an HTTP 200 OK response, it'll take it out of the load balancer, meaning that your cluster of web servers is now running at reduced capacity. You also run the risk of writing code that inadvertently removes the health check, deploying it, and taking down the entire cluster of web servers. Bad news!
 
-Hiding the behavior of your system means you are permanently removing the ability to diagnose past problems that rely on that information. In this case, it could manifest itself as an angry developer on call at 6PM on a Friday evening who is trying to figure out why the entire app cluster is down. He's tailing the log and not seeing 500 errors in the rails log for the load balancer endpoint because we decided to suppress the request in the log (hypothetically, of course... no, seriously, this didn't happen to me). Worse yet, people tasked with operating these systems are often not developing the system, so they do not know that someone intentionally is suppressing the information, causing them to be led to incorrect conclusions such as a line of thinking that the request is not making it to the web app since it's not showing up in the app's log. In fact, having *no log* would probably be better than suppressing *some* of the log, in this case! That's how messed up it is!
+Hiding the behavior of your system means you are permanently removing the ability to diagnose past problems that rely on that information. In this case, it could manifest itself as an angry developer on call at 6PM on a Friday evening who is trying to figure out why the entire app cluster is down. He's tailing the log and not seeing 500 errors in the Rails log for the load balancer endpoint because we decided to suppress the request in the log (hypothetically, of course... no, seriously, this didn't happen to me). Worse yet, people tasked with operating these systems are often not developing the system, so they do not know that someone intentionally is suppressing the information, causing them to be led to incorrect conclusions such as a line of thinking that the request is not making it to the web app since it's not showing up in the app's log. In fact, having *no log* would probably be better than suppressing *some* of the log, in this case! That's how messed up it is!
 
 ## Characteristics of good logs
 
@@ -34,7 +34,7 @@ I'm sure I'm missing a lot of obvious points. What's important, though, is think
 
 How can everyone be happy? Well, we as developers and operators of systems need to become experts at finding relevant information and finding it fast. Suppressing information is usually not the answer. *Filtering* is the answer (note, you're probably already filtering by going to the correct file in the first place!).
 
-I find that the `grep` tool is incredibly powerful and that it has a dizzying array of options that you can learn about to add to your toolkit. Below, I'll show you how to filter out the load balancer requests from the rails log using grep and tagged logging that comes with rails.
+I find that the `grep` tool is incredibly powerful and that it has a dizzying array of options that you can learn about to add to your toolkit. Below, I'll show you how to filter out the load balancer requests from the Rails log using grep and tagged logging that comes with Rails.
 
 In this example, we have 4 requests:
 
@@ -63,7 +63,7 @@ I, [2016-10-10T18:46:20.867820 #15793]  INFO -- : [ae215886-224d-4c1c-9b44-e8d7b
 I, [2016-10-10T18:46:20.899458 #15793]  INFO -- : [1255860a-624a-47e2-85b4-cd5a35de8813] Started GET "/my-real-endpoint" for 127.0.0.1 at 2016-10-10 18:46:20 +0000
 ```
 
-Notice that there are GUID values that persist across each request (the `94f74f3e-2801-4fe2-99ba-9f15f2e357c3` value is an example). This value is generated at the beginning of a web request in rails and attached to all log calls for that request after that point. We're then going to:
+Notice that there are GUID values that persist across each request (the `94f74f3e-2801-4fe2-99ba-9f15f2e357c3` value is an example). This value is generated at the beginning of a web request in Rails and attached to all log calls for that request after that point. We're then going to:
 
 1. `grep` through the log and collect the GUID values for calls to `/lbhealth`
 1. Feed back the GUID values into another `grep` command that is filtering lines containing those values via the `-v` and `-F` flags.

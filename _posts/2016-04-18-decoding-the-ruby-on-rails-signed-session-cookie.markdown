@@ -8,13 +8,13 @@ title: Decoding the Ruby on Rails signed session cookie
 
 I was prompted at work recently to review the use of cookies within the app. I figured that I could take a look at the source code to see how they were being used (which I did) and also I should take a look in the browser as to which cookies are being set which would also tell me any 2nd or 3rd party cookies are being set.
 
-One last bit that I wanted to review was what exactly we were storing in the cryptographically signed cookies in the app, mainly the session cookie. The app I'm working with is on rails 3.2, so we should be able to decode it without knowing the secret key used to sign it.
+One last bit that I wanted to review was what exactly we were storing in the cryptographically signed cookies in the app, mainly the session cookie. The app I'm working with is on Rails 3.2, so we should be able to decode it without knowing the secret key used to sign it.
 
 I tried a little bit of Googling which led me to [this article](http://www.andylindeman.com/decoding-rails-session-cookies/), but the script provided didn't work out of the box, so I had to investigate a bit to get it to work. I think that there's some good material there for future articles as to specifically what the structure of the cookie is and why it's set up as it is, but for now I'll just post the script to decode it.
 
 ## The script
 
-First, let's get a cookie. I used a new rails 3.2.22.2 app with a controller that sets the session value `my_variable` to `my_value`. Here's how to get the cookie using curl:
+First, let's get a cookie. I used a new Rails 3.2.22.2 app with a controller that sets the session value `my_variable` to `my_value`. Here's how to get the cookie using curl:
 
 ```sh
 $ curl -I localhost:3001/ | grep Set-Cookie

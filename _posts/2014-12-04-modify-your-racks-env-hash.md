@@ -34,7 +34,7 @@ def dispatch(name, request) #:nodoc:
 end
 {% endhighlight %}
 
-([source pinned to rails 4.1.4](https://github.com/rails/rails/blob/7c4bfe1c954ef90acf4f790e46fcbbd07d85af3e/actionpack/lib/action_controller/metal.rb#L195))
+([source pinned to Rails 4.1.4](https://github.com/rails/rails/blob/7c4bfe1c954ef90acf4f790e46fcbbd07d85af3e/actionpack/lib/action_controller/metal.rb#L195))
 
 In Yeller, the error reporting code extracts that information to give us a better idea of what controller and action was involved when the error occurred:
 
