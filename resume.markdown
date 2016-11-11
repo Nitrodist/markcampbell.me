@@ -19,19 +19,26 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Experience
 
-**Software Development Team Lead**
-*SERMO,* Toronto, Canada  
+<p style="page-break-before: initial">
+<strong>Software Development Team Lead</strong>
+<br>
+<em>SERMO,</em> Toronto, Canada
+<br>
 January 2016 - Current
+</p>
 
 * Leading a team of 4 developers in the EST timezone and working with other developers across Europe
 * Delivering new social networking features to doctors on the social network
 * Implemented streamlined deployment strategy à la [GitHub flow](http://scottchacon.com/2011/08/31/github-flow.html)
 * Set up CI system based on pull requests using Jenkins and GitLab
 
-
-**Software Development Team Lead**
-*theScore,* Toronto, Canada  
+<p style="page-break-before: initial">
+<strong>Software Development Team Lead</strong>
+<br>
+<em>theScore,</em> Toronto, Canada
+<br>
 June 2015 - January 2016
+</p>
 
 * 'Go-to person' for many issues due to breadth and depth of knowledge of systems at theScore
 * Technical recruitment of new employees to the company
@@ -41,9 +48,13 @@ June 2015 - January 2016
 * Mentorship and onboarding of new employees onto team
 * Continued software development duties
 
-**Ruby on Rails Developer**
-*theScore,* Toronto, Canada  
+<p style="page-break-before: initial">
+<strong>Ruby on Rails Developer</strong>
+<br>
+<em>theScore,</em> Toronto, Canada
+<br>
 June 2013 - January 2016
+</p>
 
 * Developing the JSON API that theScore's mobile devices (Android, iPhone, etc.) consume
 * Working effectively with a legacy python project to consume data from providers and to eliminate its technical debt
@@ -56,9 +67,13 @@ June 2013 - January 2016
 * Augmenting server deployments using Ansible
 * Working with various AWS components
 
-**Ruby on Rails Developer**
-*Wave Accounting Inc.,* Toronto, Canada  
+<p style="page-break-before: initial">
+<strong>Ruby on Rails Developer</strong>
+<br>
+<em>Wave Accounting Inc.,</em> Toronto, Canada
+<br>
 December 2011 - May 2013
+</p>
 
 * Key member involved in building Wave Payroll
 * Applied RSpec and Capybara tools to achieve 90%+ test coverage
@@ -68,35 +83,50 @@ December 2011 - May 2013
 * Designed and implemented fraud detection for Wave Payroll
 * Technologies used: Ruby on Rails, Git, beanstalkd, Redis, MySQL, cucumber, nginx, unicorn, and more
 
-**Co-founder, Ruby on Rails Developer**
-*ArrangeMySeat*  
+<p style="page-break-before: initial">
+<strong>Co-founder, Ruby on Rails Developer</strong>
+<br>
+<em>ArrangeMySeat</em>
+<br>
 October 2011 - December 2014
+</p>
 
 * Co-founded a seating arrangement web-application with Nathan Bertram (<a href="http://about.me/nathanbertram">http://about.me/nathanbertram</a>)
 * Uses Ruby on Rails and JavaScript to deliver a complete Eventbrite-like experience with seating choices in mind
 * Seating plan designer built in Raphaël JS
 * Integrated with PayPal to remit money to event organizers
 
-**System/Database Administrator**
-*Agriculture and Agri-Food Canada,* Winnipeg, Canada  
+<p style="page-break-before: always">
+<strong>System/Database Administrator</strong>
+<br>
+<em>Agriculture and Agri-Food Canada,</em> Winnipeg, Canada
+<br>
 January 2011 - September 2011
+</p>
 
 * Developed automation tasks for Oracle database backup and data warehousing
 * Performed security audits of HP-UX and AIX Unix environments
 * Exported End of Life products from obscure, proprietary formats to portable formats to ensure continued availability of data
 
-
-**Application Developer**
-*Manitoba Government, Air Services Branch,* Winnipeg, Canada  
+<p style="page-break-before: initial">
+<strong>Application Developer</strong>
+<br>
+<em>Manitoba Government, Air Services Branch,</em> Winnipeg, Canada
+<br>
 May 2010 - August 2010
+</p>
 
 * Authored technical manual detailing systems used to run Air Ambulance, fire fighting, and chartered flight programs for developers and system administrators
 * Developed critical business application for aircraft flights, Transport Canada regulations, and Manitoba government requirements
 * Redesigned a critical recertification application and implemented in a 3 client – 1 server configuration for centralized data reporting
 
-**IT Consultant**
-*Extreme Computer Systems,* Minnesota, USA  
+<p style="page-break-before: initial">
+<strong>IT Consultant</strong>
+<br>
+<em>Extreme Computer Systems,</em> Minnesota, USA
+<br>
 January 2009 - December 2014
+</p>
 
 * Configured, set up, and administered Cisco VoIP phone and data environments
 * Designed and created websites with Photoshop, C4D, and web-related languages
