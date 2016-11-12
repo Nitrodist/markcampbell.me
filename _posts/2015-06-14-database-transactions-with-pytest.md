@@ -6,26 +6,26 @@ title: Database Transactions With pytest
 
 For past few years I've been primarily a ruby programmer. In the ruby ecosystem, testing is seen as pretty important and I wanted to have the same tooling in python.
 
-[Where I work](http://mobile.thescore.com/), we primarily use rspec in conjunction with Rails. The combo comes with a few things by default:
+~~[Where I work](http://mobile.thescore.com/)~~ where I used to work (I've since moved on), we primarily used rspec in conjunction with Rails. The combo comes with a few things by default:
 
 1. Test discovery under `spec/` or `test/`
-2. Automatic database transaction support per test
+2. Automatic database transaction support per test (emphasis on 'automatic')
 
-We have a old, custom python project that I've been working with and slowly modernizing. The need for unit tests came up and I evaluated a few options. I ended up choosing [pytest](https://pytest.org/) as it seemed to be most modern and popular framework.
+We had a old, custom python project that I had been working with and slowly modernizing. The need for unit tests came up and I evaluated a few options. I ended up choosing [pytest](https://pytest.org/) as it seemed to be most modern and popular framework.
 
 By default, pytest is configured to discover tests in *all* directories and subdirectories. So, while it does work, it can be slow (because it crawls everything) and it can discover tests that it shouldn't (such as a vendored code).
 
 I worked around this issue by using the `norecursedirs` option. This option tells pytest which directories *not* to go into (no option exists to tell it to only go into certain directories). Here's a sample config:
 
-{% highlight ini %}
+```ini
 # setup.cfg
 [pytest]
 norecursedirs = .git vendor my-project/lib my-project/helpers docs config log tmp\*
-{% endhighlight %}
+```
 
 Note, if you put `vendor`, then make sure you don't have a directory like `tests/vendor/` because it will be ignored:
 
-{% highlight sh %}
+```sh
 $ cat setup.cfg
 [pytest]
 norecursedirs = config
@@ -51,13 +51,13 @@ collected 1 items
   <Class 'Test'>
     <Instance '()'>
       <Function 'test_foo'>
-{% endhighlight %}
+```
 
 Anyway, buyer be warned!
 
 To solve #2 (automatic database transaction support per test), it got... a bit tricky. We utilized standard xUnit style tests, so our tests would look like this:
 
-{% highlight python %}
+```python
 class TestWidget:
 
     def setup_method(self, method):
@@ -65,13 +65,13 @@ class TestWidget:
 
     def test_can_get_meaning_of_life(self):
         assert self.subject.get_meaning_of_life() == 42
-{% endhighlight %}
+```
 
 Say that instantiating `Widget` actually wrote to the database. At this point, the widget is going to be saved in the database and subsequent tests could error out because they rely on having no widgets in the database.
 
 Our first solution used inheritance like this:
 
-{% highlight python %}
+```python
 # tests/helper.py
 class BaseTest:
     def setup_method(self, method):
@@ -92,7 +92,7 @@ class TestWidget(BaseTest):
     def test_can_get_meaning_of_life(self):
         assert self.subject.get_meaning_of_life() == 42
 
-{% endhighlight %}
+```
 
 This works for the most part, except that `teardown_method` does not get called if something failed in `setup_method` [by design since pytest 2.4](https://pytest.org/latest/announce/release-2.4.0.html) (see 'issue322'). This means that `orm.session.rollback()` might not be called.
 
@@ -102,7 +102,7 @@ While the classic xUnit style doesn't work so well, we do have an alternative: [
 
 What are these fixtures? Well, they're basically dependencies that you can require for your tests. Here's how our code can look now:
 
-{% highlight python %}
+```python
 # tests/helper.py
 @pytest.fixture()
 def db_transaction(request):
@@ -124,13 +124,13 @@ class TestMyWidget:
     def test_my_failing_widget(self, db_transaction):
         print "\nin failing test\n"
         raise Exception()
-{% endhighlight %}
+```
 
 The extended example and output [can be found here](https://gist.github.com/Nitrodist/60ced9ca02d9e56cde42).
 
 The downside of this technique is that we have to remember to opt-in to every test by specifying `db_transaction` as one of the arguments. To get around this issue, we tried combining `autouse` and classes:
 
-{% highlight python %}
+```python
 # tests/helper.py
 class BaseTest:
     # prefixed with '_' since autouse fixtures are executed alphabetically
@@ -155,7 +155,7 @@ class TestWidget(BaseTest):
 
     def test_can_get_meaning_of_life(self):
         assert self.subject.get_meaning_of_life() == 42
-{% endhighlight %}
+```
 
 That's it! No other special tricks.
 
