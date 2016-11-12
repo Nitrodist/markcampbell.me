@@ -11,7 +11,7 @@ By default, it uses [FaceBox](http://defunkt.io/facebox/). I however, was using 
 
 And so, I present to you the dialog bindings for a ColorBox based dialog:
 
-{% highlight javascript %}
+```javascript
 $.DirtyForms.dialog = {
   selector : '#cboxContent',
   fire : function(message, title) {
@@ -46,4 +46,4 @@ $.DirtyForms.dialog = {
     }
   }
 };
-{% endhighlight %}
+```

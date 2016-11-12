@@ -26,22 +26,22 @@ Here's what happened:
 
 You can reproduce the error by installing the gems with [Bundler](http://gembundler.com/) to `vendor` with the `--path vendor` option:
 
-{% highlight bash %}
+```bash
 bundle install --path vendor
 bundle exec jekyll serve
-{% endhighlight %}
+```
 
 To fix this problem, we're going to modify the `_config.yml` file that determines which options that Jekyll launches with. Adding `vendor` to the `exclude:` option will tell Jekyll to not generate copy and process any files from the `vendor` directory.
 
 Your `_config.yml` file should look something like this:
 
-{% highlight yaml %}
+```yaml
 
 name: Your New Jekyll Site
 pygments: true
 exclude: ["vendor"]
 
-{% endhighlight %}
+```
 
 Now your Heroku app should work!
 
@@ -49,7 +49,7 @@ Now your Heroku app should work!
 
 So you've discovered that Jekyll will load any directory. Did you know that it also applies to files in the *root directory*? Let's make a request for `Gemfile`:
 
-{% highlight ruby %}
+```ruby
 
 $ curl http://localhost:5000/Gemfile
 source "https://rubygems.org"
@@ -57,7 +57,7 @@ source "https://rubygems.org"
 gem 'foreman'
 gem 'jekyll'
 $
-{% endhighlight %}
+```
 
 **Woah**, didn't mean to expose that information to the public! So what can we do? We can:
 

@@ -18,13 +18,13 @@ Isn't that crazy? [Here's the (insane) code that necessitates it](https://github
 
 The solution is to follow their [wiki entry](https://github.com/airbrake/airbrake/wiki/Using-Airbrake-with-Rake) (which I had to edit to make it correct):
 
-{% highlight ruby %}
+```ruby
 require 'airbrake/rake_handler' # require this if you don't have rails loaded
 
 Airbrake.configure do |config|
   config.rescue_rake_exceptions = true
 end
-{% endhighlight %}
+```
 
 I've [raised the issue](https://github.com/airbrake/airbrake/issues/292) on Airbrake's github. Feel free to visit the link and weigh in!
 

@@ -24,7 +24,7 @@ If you're not familiar with Rack or Rack middleware, I would recommend [this art
 
 While looking to integrate [Yeller](http://yellerapp.com/), we ran into a bug in our middleware. The bug came up because Yeller was looking for Rails specific data that was being attached to the request's `env` hash when an error was raised. In this case, during a request, `ActionController::Metal` sets `action_controller.instance` on the `env` hash:
 
-{% highlight ruby %}
+```ruby
 def dispatch(name, request) #:nodoc:
   @_request = request
   @_env = request.env
@@ -32,13 +32,13 @@ def dispatch(name, request) #:nodoc:
   process(name)
   to_a
 end
-{% endhighlight %}
+```
 
 ([source pinned to Rails 4.1.4](https://github.com/rails/rails/blob/7c4bfe1c954ef90acf4f790e46fcbbd07d85af3e/actionpack/lib/action_controller/metal.rb#L195))
 
 In Yeller, the error reporting code extracts that information to give us a better idea of what controller and action was involved when the error occurred:
 
-{% highlight ruby %}
+```ruby
 def render_exception_with_yeller(env, exception)
   # ...
   controller = env['action_controller.instance']
@@ -50,7 +50,7 @@ def render_exception_with_yeller(env, exception)
     # code without location information available
   end
 end
-{% endhighlight %}
+```
 
 ([source pinned to yeller_ruby 0.2.2](https://github.com/tcrayford/yeller_ruby/blob/355cb6b874c6ddf0b3ee1d3d5012b9db16b7e0c0/lib/yeller/rails.rb#L58))
 
@@ -58,13 +58,13 @@ When we ran Yeller's verification Rake task, our errors were being sent to Yelle
 
 I started by removing our custom middleware -- we had three of them and I removed all of them. The rake task succeeded! So I started adding them in one-by-one until I added one and the rake task failed. At this point, I had narrowed the code down to about 3 lines and they looked something like this:
 
-{% highlight ruby %}
+```ruby
 def call(env)
   api_version = env['HTTP_X_API_VERSION'].presence || default_api_version
   api_version = api_version.to_s.split(',').first # Handle bad API versions with commas in them
   @app.call(env.merge('the_score.api_version' => ApiVersionDecorator.new(api_version)))
 end
-{% endhighlight %}
+```
 
 ## The Solution
 
@@ -79,13 +79,13 @@ Middleware that rely on subsequent middleware (or the app) to set information (e
 
 The fix and proper way to do this is to instead *mutate* your hash through `Hash#[]`, `Hash#merge!`, `Hash#store`, and so forth. A new hash isn't created when you use these methods. Here's the fixed code:
 
-{% highlight ruby %}
+```ruby
 def call(env)
   api_version = env['HTTP_X_API_VERSION'].presence || default_api_version
   api_version = api_version.to_s.split(',').first # Handle bad API versions with commas in them
   @app.call(env.merge!('the_score.api_version' => ApiVersionDecorator.new(api_version)))
 end
-{% endhighlight %}
+```
 
 If you want to see the problem happening in your console with a 'real' Rack request (OK, not really, it uses `Rack::MockRequest` in the tests), you can clone [this project](https://github.com/Nitrodist/rack-middleware-gotcha) that I've created, `bundle install`, and run `rspec`.
 
@@ -93,7 +93,7 @@ If you want to see the problem happening in your console with a 'real' Rack requ
 
 We had a suite of tests using rpsec around these simple pieces of middleware, so we added something like this to every test:
 
-{% highlight ruby %}
+```ruby
 
 class MyMiddleware
   def initialize(app)
@@ -116,7 +116,7 @@ describe MyMiddleware do
     subject.call(env)
   end
 end
-{% endhighlight %}
+```
 
 ## Conclusion
 

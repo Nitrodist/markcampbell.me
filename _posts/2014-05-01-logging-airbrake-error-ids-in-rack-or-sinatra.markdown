@@ -14,29 +14,29 @@ If you have a Sinatra application, make sure to follow their instructions on [se
 One good thing about the Rails integration that Airbrake has is that it will log the link to the Airbrake error. Since there is no unified rack log, this isn't possible. By default, **nothing about Airbrake will show up in your log**. Airbrake *does* allow you to set up logging if you want, though ([their wiki](https://github.com/airbrake/airbrake/wiki/Logging-with-Airbrake)):
 
 
-{% highlight ruby %}
+```ruby
 
 Airbrake.configure do |config|
   config.logger = App.logger
   config.api_key = ENV['airbrake_api_key']
 end
 
-{% endhighlight %}
+```
 
 However, this will only yield the following:
 
-{% highlight irc %}
+```irc
 
 2014-05-01T18:27:06-0400: [INFO] 32065 ** [Airbrake] Success: Net::HTTPOK
 
-{% endhighlight %}
+```
 
 ## Access the error_id through the rack environment!
 
 Luckily for us, Airbrake [exposes the error_id](https://github.com/airbrake/airbrake/blob/c720737660ab20d70dfbcc4976e94e5dbe103087/lib/airbrake/rack.rb#L46) in the rack environment's `airbrake.error_id` key ([briefly mentioned in their wiki](https://github.com/airbrake/airbrake/wiki/Sending-notices-to-Airbrake-manually-from-controllers)). Knowing this, we can insert some middleware above the Airbrake middleware and log it ourselves. Example:
 
 
-{% highlight ruby %}
+```ruby
 class AfterAirbrakeMiddleware
   def initialize(app)
     @app = app
@@ -63,15 +63,15 @@ Airbrake.configure do |config|
   config.api_key = ENV['airbrake_api_key']
 end
 
-{% endhighlight %}
+```
 
 Now the log looks like this:
 
-{% highlight irc %}
+```irc
 
 2014-05-01T18:27:06-0400: [INFO] 32065 ** [Airbrake] Success: Net::HTTPOK
 2014-05-01T18:27:06-0400: [FATAL] 32065 An error was sent to Airbrake with error_id: '1146548809544442069'
 
-{% endhighlight %}
+```
 
 Isn't that better? I'm sure there's a way to create a direct link to the page with that error_id, too! Something to investigate for the future.

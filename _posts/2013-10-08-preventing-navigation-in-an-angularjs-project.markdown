@@ -15,7 +15,7 @@ What's a poor developer to do?
 
 Luckily for us, angular provides a useful, (but [undocumented](https://github.com/angular/angular.js/issues/1569)!) event called `$locationChangeStart`. Here's an example of it being used:
 
-{% highlight javascript %}
+```javascript
 newsroom.run(['$rootScope', function ($rootScope) {
   $rootScope.$on('$locationChangeStart', function (event, newUrl, oldUrl) {
         console.log(newUrl); // http://localhost:3000/#/articles/new
@@ -24,7 +24,7 @@ newsroom.run(['$rootScope', function ($rootScope) {
       }
     );
   }]);
-{% endhighlight %}
+```
 
 *Small note: there is a bug in angular 1.0.7 that allows a user to navigate away using the back button without triggering the event. Angular 1.1.5 fixes this.*
 
@@ -49,7 +49,7 @@ Angular gives you that wonderful function to implement with your own logic. For 
 
 The basic pattern that I came up with is that the child controllers will tell the `$rootScope` when to interrupt navigation. At first, I had something like this:
 
-{% highlight javascript %}
+```javascript
 newsroom.run(['$rootScope', function ($rootScope) {
 
   $rootScope.preventNavigation = false;
@@ -74,11 +74,11 @@ newsroom.controller('ArticleDetailController', ['$scope', '$rootScope', function
 }]);
 
 
-{% endhighlight %}
+```
 
 One problem with the above code is that you could come back to the app on a different page and still have that variable set on `$rootScope`. So, I decided to put in the concept of the page that the navigation was prevented on as well:
 
-{% highlight javascript %}
+```javascript
 newsroom.run(['$rootScope', '$location', function ($rootScope, $location) {
 
   var _preventNavigation = false;
@@ -121,7 +121,7 @@ newsroom.controller('ArticleDetailController', ['$scope', '$rootScope', function
   });
 }]);
 
-{% endhighlight %}
+```
 
 Looks good! However...
 
@@ -130,7 +130,7 @@ Looks good! However...
 As I mentioned above, you'll have to account for when a user tries to close the window or go to somewhere outside of your angular app. We *do* need it to use the same logic and data that we have inside our angular app, though! Here's how you do it:
 
 
-{% highlight javascript %}
+```javascript
 newsroom.run(['$rootScope', '$location', function ($rootScope, $location) {
 
   var _preventNavigation = false;
@@ -170,7 +170,7 @@ newsroom.run(['$rootScope', '$location', function ($rootScope, $location) {
 
 }]);
 
-{% endhighlight %}
+```
 
 Notice how it's using the same `_preventNavigation` and `_preventNavigationUrl` variables? This means that you'll be able to stop the navigation based on the logic that runs inside your angular app.
 
