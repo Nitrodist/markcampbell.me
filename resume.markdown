@@ -5,8 +5,8 @@ categories: jekyll update
 
 # Mark Campbell - Ruby Enthusiast
 
-location: Toronto, ON  
-mobile: 647-909-3372  
+location: Winnipeg, MB  
+mobile: 204-963-9981  
 email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
