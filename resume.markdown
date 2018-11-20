@@ -11,11 +11,11 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
 
-* Ruby and Ruby on Rails developer for six years (2010)
-* Runs the monthly 'Hack Night and Workshop' at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
+* Devops, AWS, Ruby, and Ruby on Rails developer for 8 years (2010)
+* Former organizer of the monthly 'Hack Night and Workshop' at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 * Technically proficient in many programming languages and comfortable in Linux/Unix environments
 * Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
-* Founding member of the Winnipeg Hackerspace *SkullSpace* (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
+* Founding and active member in the Winnipeg Hackerspace *SkullSpace* (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
 
 ## Experience
 
