@@ -6,6 +6,10 @@ title: "A lesson in logging: never hide behavior"
 
 **November 2018 edit**: I've had some time to think about this and I don't think that adding noise to your logs is useful, actually. The healthcheck messages you see in low throughput applications is definitely noise and, depending on how often you see the healthcheck (our app had it going about... 5x per 10 seconds... that was way too much!), it can detract from getting things done. Weigh your chocies, people, and don't stand on principle when the people who are tasked with maintaining the infrastructure want to remove obstacles, please!
 
+Without further ado, here is the original article from October 2016:
+
+<hr>
+
 Recently, I was working on implementing a health check endpoint to one of our Rails apps. It is a simple endpoint that basically responds with 200 OK and a JSON response. During the code review process, one of my coworkers brought up the fact that it's quite annoying to be tailing the log and constantly seeing requests for `/lbhealth` (or similar) 'polluting' the log. He then asked to just suppress the messages in the Rails log.
 
 From his point of view, the requests themselves are noise since he's only concerned with the requests made to the webapp (system) that a user would interact with. When he's tasked with debugging some behavior on one of our staging servers, he's met with a large log and more than half of the requests to the app are filled with health check requests. He's quite right in that seeing the requests slows down his ability to just see the relevant information.
