@@ -5,6 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        {% if page.open_graph_description %}
+          <meta content="{{ page.open_graph_description }}" property="og:description">
+        {% endif %}
+
         {% if page.image %}
           <meta content="/{{ page.image }}" property="og:image">
         {% else %}

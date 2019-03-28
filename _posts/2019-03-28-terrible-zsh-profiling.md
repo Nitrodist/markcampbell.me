@@ -2,6 +2,7 @@
 layout: post
 
 title: "Terrible zsh profiling"
+open_graph_description: "What is Terrible ZSH Profiler and how to use it. Bonus examples included!"
 ---
 
 Have you ever wanted to profile your `.zshrc` to figure out what's slow when you launch a prompt? 
