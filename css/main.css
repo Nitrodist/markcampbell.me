@@ -25,6 +25,17 @@ p, ul, ol {
   width: 42em;
 }
 
+@media screen and (max-width: 40.5em) {
+  h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  p, ul, ol {
+    width: initial;
+  }
+}
+
 a         { color: #A00; }
 a:hover   { color: #000; }
 a:visited { color: #006D94; }
