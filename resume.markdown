@@ -12,7 +12,10 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 ## Profile
 
 * Devops, AWS, Ruby, and Ruby on Rails developer for 8 years (2010)
-* Former organizer of the monthly 'Hack Night and Workshop' at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
+* Board member of the [Manitoba Major Soccer League (MMSL)](http://mmsl.ca/)
+* Board member of the [Ralph Brown Community Centre](http://ralphbrowncc.com/)
+* Founding organizer of the [Winnipeg AWS User Group](http://winnipegaws.ca/)
+* Former organizer of the monthly 'Hack Night and Workshop' for 3 years at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 * Technically proficient in many programming languages and comfortable in Linux/Unix environments
 * Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
 * Founding and active member in the Winnipeg Hackerspace *SkullSpace* (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
