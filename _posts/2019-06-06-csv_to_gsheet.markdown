@@ -6,7 +6,9 @@ title: "csv_to_gsheet command released!"
 
 Please welcome to the programming world the `csv_to_gsheet` command!
 
-Install it with `gem install csv_to_gsheet`.
+With this command, you can import your csv files to Google Sheets without going through Google's CSV import wizard.
+
+Install it with `gem install csv_to_gsheet`. [Source code here](https://gitlab.com/Nitrodist/csv_to_gsheet).
 
 Using it:
 
@@ -20,4 +22,4 @@ Here's a demo of it in action:
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vvOoG__E1gk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-With this command, you can import your csv files to google sheets withoutt going through Google's CSV import wizard.
+
