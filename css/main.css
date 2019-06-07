@@ -17,7 +17,7 @@ body {
   font: 13px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
+h1, h2, h3, h4, h5, h6, p, ul, ol, pre, iframe {
   margin: 1em 2em 1em 10%;
 }
 
@@ -129,9 +129,15 @@ a.extra:hover {
   height: 30px;
 }
 
-#disqus_thread {
+#markcampbell_me_disqus_container {
   margin-left: 10%;
   margin-right: 10%;
+}
+
+
+#disqus_thread iframe {
+  margin-right: 0;
+  margin-left: 0;
 }
 
 /*****************************************************************************/
