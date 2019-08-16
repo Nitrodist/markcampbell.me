@@ -12,9 +12,11 @@
 
 html, body { height: 100%; width: 100%; }
 
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 body {
   background-color: #FFF;
-  font: 13px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 15px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6, p, ul, ol, pre, iframe {
@@ -46,16 +48,15 @@ table {
 
 table.posts {
   margin-left: 10%;
-}
 
-.posts-index-row > td {
-  padding-bottom: 0.5em;
+  .posts-index-row > td {
+    padding-bottom: 0.5em;
+  }
 }
 
 .posts-index-date {
   color: #aaa;
-  text-transform: uppercase;
-  font-size: 80%;
+  font-size: 50%;
 }
 
 /*****************************************************************************/
