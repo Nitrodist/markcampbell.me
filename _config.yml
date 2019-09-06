@@ -1,4 +1,4 @@
-name: Ruby and other things!
+name: Two computers and a microphone
 highlighter: rouge
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "Procfile", "README.md", '404.html']
 url: http://markcampbell.me
