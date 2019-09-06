@@ -5,6 +5,12 @@ date:   2013-05-18 16:00:00
 categories: jekyll heroku
 ---
 
+<hr>
+
+<p><em>Editors note from 2019</em> - this was written in 2013. I'm sure Heroku has solved their problem by now. Feel free to read the rest of the article, though!</p>
+
+<hr>
+
 While setting up this blog, I ran into [an issue](https://github.com/mattmanning/heroku-buildpack-ruby-jekyll/pull/7#issuecomment-17722748) trying to deploy to Heroku successfully. The deploy would succeed, but then I would get the big 'Something went wrong' page from Heroku! What was going on? Better check out the logs:
 
 <pre>
