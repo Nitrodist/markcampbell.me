@@ -11,6 +11,7 @@
           <meta content="{{ page.open_graph_description }}" property="og:description">
         {% endif %}
 
+
         {% if page.image %}
           <meta content="/{{ page.image }}" property="og:image">
         {% else %}
@@ -28,6 +29,9 @@
 
     </head>
     <body>
+      <!-- 
+      {{ jekyll.environment }}
+      -->
 
       <h1 class="title"><a href="/">{{ site.name }}</a></h1>
       <a href="/"><div class="circular headshot"></div></a>
