@@ -118,7 +118,7 @@ a.extra:hover {
 
 .headshot {
   margin-top: 2em;
-  background: url(/images/headshot.jpg) no-repeat;
+  background: url(/assets/images/headshot.jpg) no-repeat;
   background-size: 100% 100%;
   display: inline-block;
   vertical-align: middle;

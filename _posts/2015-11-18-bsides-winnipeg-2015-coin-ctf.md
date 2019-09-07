@@ -10,7 +10,7 @@ title: BSides Winnipeg 2015 Coin CTF Writeup
 
 At 2015 edition of BSides Winnipeg, there was a [capture-the-flag](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security)/puzzle based on a physical coin:
 
-![Coin Puzzle Image](/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/coin.jpg "Coin Puzzle Image")
+![Coin Puzzle Image](/assets/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/coin.jpg "Coin Puzzle Image")
 
 From there, we see a few things:
 
@@ -264,21 +264,21 @@ Looks like a QR code! Let's set our terminal up to display it better so that we 
 
 Adjust the foreground and background color:
 
-![Adjust FG and BG colors in terminal](/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/adjust-fg-and-bg-color.jpg "Adjust FG and BG colors in terminal")
+![Adjust FG and BG colors in terminal](/assets/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/adjust-fg-and-bg-color.jpg "Adjust FG and BG colors in terminal")
 
 Adjust vertical spacing:
 
-![Adjust vertical spacing](/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/vertical-spacing.jpg "Adjust vertical spacing")
+![Adjust vertical spacing](/assets/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/vertical-spacing.jpg "Adjust vertical spacing")
 
 Here's the result!
 
-![Result of terminal adjustments](/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/result.jpg "Result of terminal adjustments")
+![Result of terminal adjustments](/assets/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/result.jpg "Result of terminal adjustments")
 
 # Step 5 - get the QR code text
 
 I used my Android phone with a program called 'QR Droid' to get the text:
 
-![QR text result](/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/Screenshot_20151118-082609.png "QR text result")
+![QR text result](/assets/images/2015-11-18-bsides-winnipeg-2015-coin-ctf/Screenshot_20151118-082609.png "QR text result")
 
 Sweet, we got the flag! Or, specifically, we got `flag: 🚩🔜💻`
 

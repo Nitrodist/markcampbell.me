@@ -2,6 +2,8 @@
 layout: post
 
 title: Setting up Vim to yank to clipboard on Mac OS X
+main_category: tech
+snippet: "I know I have trouble getting my clipboard to cooperate sometimes: this fixes it mostly."
 ---
 
 I'm writing this post because it took me a long time to figure out all of the little steps necessary to get Vim to yank to the clipboard.
@@ -66,7 +68,7 @@ So at this point, you have clipboard support and it should be yanking to your cl
 
 Since you're running OS X, you don't have an X11 server running. The solution to this is to run [XQuartz](http://www.xquartz.org/) (installer for it is there).  After you've installed it, make sure that your preference pane is set up like this (this step is vital!):
 
-![XQuartz Preferences Pane Screenshot](/images/2016-04-12-setting-up-yank-to-clipboard-on-a-mac-with-vim/xquartz_preferences.jpg)
+![XQuartz Preferences Pane Screenshot](/assets/images/2016-04-12-setting-up-yank-to-clipboard-on-a-mac-with-vim/xquartz_preferences.jpg)
 
 The last item ('Update Pasteboard immediately when new text is selected') is *not* selected by default which I didn't know was necessary in order to have vim copy to clipboard.
 
