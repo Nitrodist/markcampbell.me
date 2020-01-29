@@ -1,17 +1,24 @@
 ---
 layout: default
-title: Mark Campbell - Ruby Enthusiast
+title: Mark Campbell - Winnipeg commentary
 ---
 
-<h1>Blog Posts</h1>
+<p>I'm a software developer/manager in Winnipeg.</p>
+
+<p>I've lived and worked in Winnipeg, Toronto, and remotely for most of my career.</p>
+
+<p>Winnipeg is where I call home. Come visit, it's awesome!</p>
+
+<h1>Blog Posts (mostly tech)</h1>
+
 <table class="posts">
   {% for post in site.posts %}
   <tr class="posts-index-row">
-    <td class="posts-index-date">
-      {{ post.date | date: "%b %Y" }}
-    </td>
     <td>
       <a href="{{ post.url }}">{{ post.title }}</a>
+      {% if post.snippet %}
+      <p><em>From {{ post.date | date: "%Y" }}</em> - {{ post.snippet }}</p>
+      {% endif %}
     </td>
   </tr>
   {% endfor %}
