@@ -11,7 +11,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
 
-* Devops, AWS, Ruby, and Ruby on Rails developer for 8 years (2010)
+* Devops, AWS, Ruby, and Ruby on Rails developer for 10 years (2010)
 * Board member of the [Manitoba Major Soccer League (MMSL)](http://mmsl.ca/)
 * Board member of the [Ralph Brown Community Centre](http://ralphbrowncc.com/)
 * Founding organizer of the [Winnipeg AWS User Group](http://winnipegaws.ca/)
@@ -30,40 +30,37 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 January 2016 - Current
 </p>
 
-* Leading a team of 4 developers in the EST timezone and working with other developers across Europe
-* Delivering new social networking features to doctors on the social network
-* Implemented streamlined deployment strategy à la [GitHub flow](http://scottchacon.com/2011/08/31/github-flow.html)
-* Set up CI system based on pull requests using Jenkins and GitLab
+* Remotely led a team of developers and designers ranging from PST timezone to eastern Europe
+* Designed and implemented services with AWS technologies (too numerous to mention!), serving as a networking and devops engineer full time for about a year
+* Full stack developer for services related to ETL, BI, and data operations with data warehousing, reporting, and monitoring implemented with ETLWorks, AWS RedShift, Metabase, etc.
+* Implemented several new stand-alone Ruby on Rails based apps as a full stack developer with unit and integration testing as a focus
+* Directed the implementation of an overall QA strategy and trained team members to become proficient with automated testing tools
+* Begun the implementation of a DataOps method of BI
+* Built new JSON and Thrift APIs between .NET based apps and Ruby on Rails based apps (and maintained them of course)
+* Successfully migrated and put into maintenance existing Ruby on Rails based apps in a split Ruby on Rails and .NET ecosystem to a primarily .NET based ecosystem
+* Dockerized several rails apps and Jenkins itself for CI/CD purposes
+* Successfully transitioned several large Ruby on Rails apps on an old Amazon Linux AMI with Puppet 2 to a modern Ubuntu release with Puppet 3
+* Implemented a streamlined deployment strategy à la [GitHub flow](http://scottchacon.com/2011/08/31/github-flow.html) along with CI/CD with Jenkins and GitLab
+* Built monitoring systems for AWS based services (Sentry, CloudWatch, dashboards, PagerDuty, etc.)
 
 <p style="page-break-before: initial">
-<strong>Software Development Team Lead</strong>
-<br>
-<em>theScore,</em> Toronto, Canada
-<br>
-June 2015 - January 2016
-</p>
-
-* 'Go-to person' for many issues due to breadth and depth of knowledge of systems at theScore
-* Technical recruitment of new employees to the company
-* Speaker on multiple occasions for the Ruby Tech Talks in Toronto
-* Solving long-term technical debt
-* Leading a team of 5 developers across various projects
-* Mentorship and onboarding of new employees onto team
-* Continued software development duties
-
-<p style="page-break-before: initial">
-<strong>Ruby on Rails Developer</strong>
+<strong>Software Development Team Lead and Ruby on Rails Developer</strong>
 <br>
 <em>theScore,</em> Toronto, Canada
 <br>
 June 2013 - January 2016
 </p>
 
+* 'Go-to person' for many issues due to breadth and depth of knowledge of systems at theScore
+* Technical recruitment of new employees to the company via monthly hack nights
+* Speaker on multiple occasions for the Ruby Tech Talks in Toronto
+* Solved tons of long-term technical debt with automated testing and rapid change
+* Led a team of developers and mentored juniors into high performance employees
 * Developing the JSON API that theScore's mobile devices (Android, iPhone, etc.) consume
-* Working effectively with a legacy python project to consume data from providers and to eliminate its technical debt
-* Working with push alerts (millions of devices, 1+ billion messages per month)
+* Effectively upgraded and modernized a large custom legacy python project and replaced/upgraded large portions of it
+* Upgraded and effectively impelmented integration testing in a complex queue based push alert system (millions of devices, 1+ billion messages per month)
 * Queuing systems with beanstalkd and Sidekiq
-* Architecting new applications and testing infrastructure
+* Architecting new applications and testing infrastructure, including a system with 10,000 RPM using Rails and MySQL to service 10 million users
 * Caching strategies from CDNs (CloudFront/Akamai) to Varnish HTTP caching to fragment caching within Rails
 * Implementing AngularJS based administrative interfaces
 * Experienced with Splunk for operational alerts and ad-hoc reports
