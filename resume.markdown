@@ -25,7 +25,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 <p style="page-break-before: initial">
 <strong>Software Development Team Lead</strong>
 <br>
-<em>SERMO,</em> Toronto, Canada
+<em>Sermo,</em> Toronto, Canada
 <br>
 January 2016 - Current
 </p>
