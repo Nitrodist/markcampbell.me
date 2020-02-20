@@ -22,7 +22,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Experience
 
-<p style="page-break-before: initial">
+<p>
 <strong>Software Development Team Lead</strong>
 <br>
 <em>Sermo,</em> Toronto, Canada
@@ -43,7 +43,7 @@ January 2016 - Current
 * Implemented a streamlined deployment strategy à la [GitHub flow](http://scottchacon.com/2011/08/31/github-flow.html) along with CI/CD with Jenkins and GitLab
 * Built monitoring systems for AWS based services (Sentry, CloudWatch, dashboards, PagerDuty, etc.)
 
-<p style="page-break-before: initial">
+<p>
 <strong>Software Development Team Lead and Ruby on Rails Developer</strong>
 <br>
 <em>theScore,</em> Toronto, Canada
@@ -67,7 +67,7 @@ June 2013 - January 2016
 * Augmenting server deployments using Ansible
 * Working with various AWS components
 
-<p style="page-break-before: initial">
+<p>
 <strong>Ruby on Rails Developer</strong>
 <br>
 <em>Wave Accounting Inc.,</em> Toronto, Canada
@@ -83,7 +83,7 @@ December 2011 - May 2013
 * Designed and implemented fraud detection for Wave Payroll
 * Technologies used: Ruby on Rails, Git, beanstalkd, Redis, MySQL, cucumber, nginx, unicorn, and more
 
-<p style="page-break-before: initial">
+<p>
 <strong>Co-founder, Ruby on Rails Developer</strong>
 <br>
 <em>ArrangeMySeat</em>
@@ -96,7 +96,7 @@ October 2011 - December 2014
 * Seating plan designer built in Raphaël JS
 * Integrated with PayPal to remit money to event organizers
 
-<p style="page-break-before: always">
+<p>
 <strong>System/Database Administrator</strong>
 <br>
 <em>Agriculture and Agri-Food Canada,</em> Winnipeg, Canada
@@ -108,7 +108,7 @@ January 2011 - September 2011
 * Performed security audits of HP-UX and AIX Unix environments
 * Exported End of Life products from obscure, proprietary formats to portable formats to ensure continued availability of data
 
-<p style="page-break-before: initial">
+<p>
 <strong>Application Developer</strong>
 <br>
 <em>Manitoba Government, Air Services Branch,</em> Winnipeg, Canada
@@ -120,7 +120,7 @@ May 2010 - August 2010
 * Developed critical business application for aircraft flights, Transport Canada regulations, and Manitoba government requirements
 * Redesigned a critical recertification application and implemented in a 3 client – 1 server configuration for centralized data reporting
 
-<p style="page-break-before: initial">
+<p>
 <strong>IT Consultant</strong>
 <br>
 <em>Extreme Computer Systems,</em> Minnesota, USA
@@ -137,7 +137,7 @@ January 2009 - December 2014
 
 * Contract Ruby on Rails work for Proposable (<a href="https://proposable.com">https://proposable.com/</a>)
 
-<h2 style="page-break-before: always">Languages, Technologies, and Techniques</h2>
+<h2>Languages, Technologies, and Techniques</h2>
 
 <div class="tech_langs">
   <ul>
