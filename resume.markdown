@@ -133,24 +133,22 @@ January 2009 - December 2014
 * Created internal CRM website developed with Ruby on Rails
 * Built, configured, repaired, and maintained computers for clients
 
-## Other Experience
-
-* Contract Ruby on Rails work for Proposable (<a href="https://proposable.com">https://proposable.com/</a>)
-
 <h2>Languages, Technologies, and Techniques</h2>
 
 <div class="tech_langs">
   <ul>
     <li>Ruby</li>
     <li>Ruby on Rails</li>
-    <li>AWS</li>
-    <li>JavaScript</li>
+    <li>Python</li>
+    <li>pytest</li>
+    <li>Sinatra</li>
+    <li>JavaScript/Node</li>
     <li>Splunk & ELK</li>
-    <li>Cucumber</li>
-    <li>MySQL</li>
-    <li>PostgreSQL</li>
-    <li>Oracle</li>
-    <li>CCNA Level 1</li>
+    <li>Cucumber (Rails)</li>
+    <li>Strong sql skills</li>
+    <li>AWS (CloudFormation, etc. etc.)</li>
+    <li>ETLWorks</li>
+    <li>mod_security</li>
   </ul>
 </div>
 <div class="tech_langs">
@@ -162,25 +160,25 @@ January 2009 - December 2014
     <li>Beanstalkd</li>
     <li>Git</li>
     <li>SVN</li>
-    <li>Python</li>
-    <li>pytest</li>
     <li>Bash/Ksh/Zsh</li>
+    <li>Jenkins CI/CD workflow administration</li>
+    <li>MySQL administration</li>
+    <li>PostgreSQL administration</li>
+    <li>Oracle administration</li>
   </ul>
 </div>
 <div class="tech_langs">
   <ul>
-    <li>Ansible</li>
-    <li>TDD</li>
-    <li>BDD</li>
+    <li>Ansible & Puppet</li>
+    <li>TDD & BDD</li>
+    <li>MVC & MVVM</li>
     <li>Agile and Scrum</li>
-    <li>MVC</li>
-    <li>Sinatra</li>
     <li>Vim</li>
-    <li>Java</li>
-    <li>VB.NET</li>
     <li>MS-Access</li>
+    <li>CCNA Level 1</li>
   </ul>
 </div>
+
 
 ## References
 

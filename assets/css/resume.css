@@ -188,5 +188,6 @@ ul.posts span {
 
 .tech_langs {
   display: inline-block;
-  min-width: 200px;
+  width: 200px;
+  vertical-align: top;
 }
