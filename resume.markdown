@@ -18,7 +18,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 * Former organizer of the monthly 'Hack Night and Workshop' for 3 years at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 * Technically proficient in many programming languages and comfortable in Linux/Unix environments
 * Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
-* Founding and active member in the Winnipeg Hackerspace *SkullSpace* (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
+* Founding member and director of the Winnipeg hackerspace *SkullSpace* (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
 
 ## Experience
 
