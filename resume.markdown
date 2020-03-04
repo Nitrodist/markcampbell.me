@@ -160,7 +160,6 @@ January 2009 - December 2014
     <li>Capybara</li>
     <li>Beanstalkd</li>
     <li>Git</li>
-    <li>SVN</li>
     <li>Bash/Ksh/Zsh</li>
     <li>Jenkins CI/CD workflow administration</li>
     <li>MySQL administration</li>
