@@ -140,14 +140,15 @@ January 2009 - December 2014
     <li>Ruby</li>
     <li>Ruby on Rails</li>
     <li>Python</li>
+    <li>AWS (CloudFormation, etc. etc.)</li>
     <li>pytest</li>
     <li>Sinatra</li>
     <li>JavaScript/Node</li>
     <li>Splunk & ELK</li>
     <li>Cucumber (Rails)</li>
     <li>Strong sql skills</li>
-    <li>AWS (CloudFormation, etc. etc.)</li>
     <li>ETLWorks</li>
+    <li>Metabase</li>
     <li>mod_security</li>
   </ul>
 </div>
@@ -172,6 +173,7 @@ January 2009 - December 2014
     <li>Ansible & Puppet</li>
     <li>TDD & BDD</li>
     <li>MVC & MVVM</li>
+    <li>Varnish</li>
     <li>Agile and Scrum</li>
     <li>Vim</li>
     <li>MS-Access</li>
