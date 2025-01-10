@@ -3,7 +3,7 @@ layout: resume
 categories: jekyll update
 ---
 
-# Mark Campbell - Ruby Enthusiast
+# Mark Campbell - Elixir and Ruby Enthusiast
 
 location: Winnipeg, MB  
 mobile: [204-963-9981](tel:+12049639981)  
