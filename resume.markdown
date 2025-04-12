@@ -11,15 +11,40 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
 
-- Devops, AWS, Ruby, and Ruby on Rails developer for 14 years (2010)
-- Elixir for 3 years
-- Board member of the [Ralph Brown Community Centre](http://ralphbrowncc.com/)
+- Devops, AWS, Ruby, and Ruby on Rails developer for 15 years (2010)
+- Elixir for about 4 years of combined experience from working at theScore / Penn Interactive twice
+- Founding member and director of the Winnipeg hackerspace _SkullSpace_ (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
+- Vice President of [Ralph Brown Community Centre](http://ralphbrowncc.com/)
 - Former organizer of the monthly 'Hack Night and Workshop' for 3 years at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 - Technically proficient in many programming languages and comfortable in Linux/Unix environments
 - Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
-- Founding member and director of the Winnipeg hackerspace _SkullSpace_ (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
 
 ## Experience
+
+<p>
+<strong>Senior Software Developer</strong>
+<br>
+<em>theScore / Penn Interactive,</em> Winnipeg, Canada
+<br>
+June 2024 - Current
+</p>
+
+- My main responsibility was to maintain and develop GraphQL, gRPC, and Web
+  Views APIs powered by a Phoenix app processing 10,000 to 30,000 withdrawals and
+  deposits a day at the virtual casino ESPN BET / theScore BET / Hollywood Casino
+  / theScore Casino, handling millions of dollars
+- Built and maintained APIs backend APIs and full-stack integrations on web,
+  Android, and iOS for various payment provider vendors such as
+  PaySafe, Venmo, Paramount Commerce, PayPal, and more
+- One of my first major projects was to design and integrate a new app, Hollywood Casino, into the Payments service at theScore - I wrote tech specs, tickets, and then followed it up by implementing it with the team for a seamless launch of a brand new property at Penn Interactive
+- Built new and maintained existing DataDog monitors, logging, and traces for monitoring deposits and withdrawls in the Payments ecosystem which included monitoring of internal services and external payment providers
+- Launched several new states and provinces for support in the apps at Penn Interactive i.e. Washington DC, Maryland, etc. were new states that are now supported in the apps
+- Implemented fixes for, redacted, and identified Personally Identifiable Information (PII) leaking into external service providers like BugSnag and DataDog
+- On-call engineer maintaining said APIs during the busiest of times like Superbowl and March Madness
+- Supported and oversaw the no-downtime migration of the Payments service's
+  Kubernetes namespace from A to B as well as the migration from a major
+  subdomain change
+- Redesigned and implemented complex background job processing logic using Oban
 
 <p>
 <strong>Co-founder</strong>
