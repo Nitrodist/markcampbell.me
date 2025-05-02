@@ -22,6 +22,21 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 - Video content creator and editor for some technical documentation at theScore
 - Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
 
+## Education
+
+<p>
+<strong>Diploma in Computer Analyst/ Programmer</strong>
+<br>
+<em>Red River College,</em> Winnipeg, Canada
+<br>
+2009 - 2011
+
+</p>
+
+- Class Representative
+- Honors, Salutatorian
+- Spoke at and attended Winnipeg Ruby User Group
+
 ## Experience
 
 <p>
