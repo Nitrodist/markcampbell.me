@@ -17,6 +17,9 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 - Vice President of [Ralph Brown Community Centre](http://ralphbrowncc.com/)
 - Former organizer of the monthly 'Hack Night and Workshop' for 3 years at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 - Technically proficient in many programming languages and comfortable in Linux/Unix environments
+- Presenter at Winnipeg AWS User Group, Toronto Ruby User Group, Winnipeg Ruby
+  User Group
+- Video content creator and editor for some technical documentation at theScore
 - Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
 
 ## Experience
