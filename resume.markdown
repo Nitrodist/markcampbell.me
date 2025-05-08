@@ -20,7 +20,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 - Presenter at Winnipeg AWS User Group, Toronto Ruby User Group, Winnipeg Ruby
   User Group
 - Video content creator and editor for some technical documentation at theScore
-- Co-organizer of Winnisec, a monthly computer security meetup in Winnipeg - https://winnisec.life
+- Co-organizer of Winnisec, a monthly computer security meetup in Winnipeg - [https://winnisec.life](https://winnisec.life)
 - Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
 
 ## Education
