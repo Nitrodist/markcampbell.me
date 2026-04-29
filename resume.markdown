@@ -11,7 +11,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
 
-- Devops, AWS, Ruby, and Ruby on Rails developer for 15 years (2010)
+- Devops, AWS, Ruby, and Ruby on Rails developer for 16 years (2010)
 - Elixir for about 4 years of combined experience from working at theScore / Penn Interactive twice
 - Founding member and director of the Winnipeg hackerspace _SkullSpace_ (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
 - Vice President of [Ralph Brown Community Centre](http://ralphbrowncc.com/)
@@ -37,6 +37,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 - Class Representative
 - Honors, Salutatorian
 - Spoke at and attended Winnipeg Ruby User Group
+- Active founding member of SkullSpace, Winnipeg's Hackerspace
 
 ## Experience
 
@@ -44,8 +45,10 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 <strong>Senior Software Developer</strong>
 <br>
 <em>theScore / Penn Interactive,</em> Winnipeg, Canada
-<br>
-June 2024 - Current
+<br>June 2024 - Current
+<br>125 Queens Quay East, 9th Floor
+<br>Toronto, Ontario M5A 0Z6
+<br>(416) 479-8812
 </p>
 
 - My main responsibility was to maintain and develop GraphQL, gRPC, and Web
@@ -69,8 +72,9 @@ June 2024 - Current
 <strong>Co-founder</strong>
 <br>
 <em>BusyPaws,</em> Winnipeg, Canada
-<br>
-September 2022 - May 2024
+<br>September 2022 - May 2024
+<br>Bar None Inc. PO Box 167
+<br>Revelstoke, BC V4N 6B7, Canada 
 </p>
 
 - I have developed many full features for BusyPaws including major features like the calendar, time sheets, group bookings, additional user types, and more. I improved many existing features and fixed many bugs in our Ruby on Rails + JS stack.
@@ -85,6 +89,11 @@ September 2022 - May 2024
 <em>theScore,</em> Toronto, Canada
 <br>
 March 2020 - September 2022
+
+<br>125 Queens Quay East, 9th Floor
+<br>Toronto, Ontario M5A 0Z6
+<br>(416) 479-8812
+
 </p>
 
 - While at theScore from 2020 to 2022, I developed and maintained public facing APIs (millions of users), internal APIs, and did full-stack software development for internal facing systems. All of this work was a mix of Ruby on Rails, Elixir, and Devops tasks.
@@ -100,8 +109,11 @@ March 2020 - September 2022
 <strong>Software Development Team Lead</strong>
 <br>
 <em>Sermo,</em> Toronto, Canada
-<br>
-January 2016 - February 2020
+<br>January 2016 - February 2020
+<br>3 Murphy Street
+<br>London, IT SE 7FP
+<br>UK
+<br>+1 (917) 602-3838
 </p>
 
 - Remotely led a team of developers and designers ranging from PST timezone to eastern Europe
@@ -121,8 +133,9 @@ January 2016 - February 2020
 <strong>Software Development Team Lead and Ruby on Rails Developer</strong>
 <br>
 <em>theScore,</em> Toronto, Canada
-<br>
-June 2013 - January 2016
+<br>June 2013 - January 2016
+<br>4-500 King Street West
+<br>Toronto, ON M5V 1L9
 </p>
 
 - 'Go-to person' for many issues due to breadth and depth of knowledge of systems at theScore
@@ -145,8 +158,9 @@ June 2013 - January 2016
 <strong>Ruby on Rails Developer</strong>
 <br>
 <em>Wave Accounting Inc.,</em> Toronto, Canada
-<br>
-December 2011 - May 2013
+<br>December 2011 - May 2013
+<br>235 Carlaw Ave Suite 501
+<br>Toronto, ON M4M 2S1
 </p>
 
 - Key member involved in building Wave Payroll
@@ -165,7 +179,7 @@ December 2011 - May 2013
 October 2011 - December 2014
 </p>
 
-- Co-founded a seating arrangement web-application with Nathan Bertram (<a href="http://about.me/nathanbertram">http://about.me/nathanbertram</a>)
+- Co-founded a seating arrangement web-application with Nathan Bertram [https://www.trueperspective.net](https://www.trueperspective.net)
 - Uses Ruby on Rails and JavaScript to deliver a complete Eventbrite-like experience with seating choices in mind
 - Seating plan designer built in Raphaël JS
 - Integrated with PayPal to remit money to event organizers
