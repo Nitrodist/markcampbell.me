@@ -45,7 +45,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 <strong>Senior Software Developer</strong>
 <br>
 <em>theScore / Penn Interactive,</em> Winnipeg, Canada
-<br>June 2024 - Current
+<br>June 2024 - November 2025
 <br>125 Queens Quay East, 9th Floor
 <br>Toronto, Ontario M5A 0Z6
 <br>(416) 479-8812
