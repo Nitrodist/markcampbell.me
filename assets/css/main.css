@@ -10,52 +10,48 @@
   padding: 0;
 }
 
-html, body { height: 100%; width: 100%; }
-
-
-@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+html,
 body {
-  background-color: #FFF;
+  height: 100%;
+  width: 100%;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  background-color: #c9e2fc;
   font: 15px "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6, p, ul, ol, pre, iframe {
-  margin: 1em 2em 1em 10%;
-}
-
-p, ul, ol {
+p,
+ul,
+ol {
   width: 42em;
 }
 
-@media screen and (max-width: 40.5em) {
-  h1, h2, h3, h4, h5, h6, p, ul, ol, pre {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-
-  p, ul, ol {
-    width: initial;
-  }
+a {
+  color: #f98739;
 }
 
-a         { color: #A00; }
-a:hover   { color: #000; }
-a:visited { color: #006D94; }
+a:hover {
+  color: #f4b4a4;
+}
+
+a:visited {
+  color: #f939ab;
+}
 
 table {
   font-size: inherit;
 }
 
 table.posts {
-  margin-left: 10%;
-
   .posts-index-row > td {
     padding-bottom: 0.5em;
   }
 }
 
 .posts-index-date {
-  color: #aaa;
   font-size: 50%;
 }
 
@@ -67,25 +63,11 @@ table.posts {
 
 h1.title {
   margin-top: 2em;
-  display: inline;
+  color: #fc3649;
 }
 
 h1.title a {
-  color: #a00;
-  text-decoration: none;
-}
-
-h1.title a:hover {
-  color: #000;
-}
-
-a.extra {
-  color: #aaa;
-  margin-left: 1em;
-}
-
-a.extra:hover {
-  color: #000;
+  color: #fc3649;
 }
 
 .meta {
@@ -105,7 +87,7 @@ a.extra:hover {
 }
 
 .footer .contact a {
-  color: #8085C1;
+  color: #8085c1;
 }
 
 .circular {
@@ -130,17 +112,6 @@ a.extra:hover {
   height: 30px;
 }
 
-#markcampbell_me_disqus_container {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-
-#disqus_thread iframe {
-  margin-right: 0;
-  margin-left: 0;
-}
-
 /*****************************************************************************/
 /*
 /* Posts
@@ -156,7 +127,8 @@ a.extra:hover {
   width: 100%;
 }
 
-#post ul, #post ol {
+#post ul,
+#post ol {
   padding-left: 2em;
 }
 
@@ -165,7 +137,10 @@ a.extra:hover {
 }
 
 #post pre {
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console",
+    "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono",
+    "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier,
+    monospace;
   margin: 0 0 0 10%;
   padding-left: 0;
   padding-top: 2em;
@@ -177,3 +152,4 @@ a.extra:hover {
 #post pre code {
   line-height: 0px;
 }
+

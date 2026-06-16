@@ -1,4 +1,4 @@
-name: Two computers and a microphone
+name: This Side of the Tracks
 highlighter: rouge
 exclude: ["vendor", "Gemfile", "Gemfile.lock", "Procfile", "README.md", '404.html']
 url: http://markcampbell.me
