@@ -45,7 +45,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 <strong>Senior Software Developer</strong>
 <br>
 <em>theScore / Penn Interactive,</em> Winnipeg, Canada
-<br>June 2024 - Current
+<br>June 2024 - November 2025
 <br>125 Queens Quay East, 9th Floor
 <br>Toronto, Ontario M5A 0Z6
 <br>(416) 479-8812
@@ -72,7 +72,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 <strong>Co-founder</strong>
 <br>
 <em>BusyPaws,</em> Winnipeg, Canada
-<br>September 2022 - May 2024
+<br>September 2022 - May 2024 (to today... sort of)
 <br>Bar None Inc. PO Box 167
 <br>Revelstoke, BC V4N 6B7, Canada 
 </p>
@@ -82,6 +82,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 - One of my projects at BusyPaws was to build and implement the BusyPaws mobile app for Android and iOS. I developed the mobile app for Android+iOS using Flutter. Along the way I integrated our existing Ruby on Rails app's web experience into the mobile device platforms. With key features like native offline SMS and Email messaging experience and push notifications, this delivers a lot of value for our customers .
 - Other major features I worked on related to the mobile app Firebase Cloud Messaging (push notifications), error reporting, rich text editors in Flutter, Flutter Riverpod, Flutter Go Router, and server side driven configuration. As a full stack developer, I implemented all of the server side changes as well and used my prior experience creating and maintaining JSON and GraphQL APIs at theScore.
 - One of my roles at BusyPaws has been to carry out devops oriented tasks - we work in a AWS and a Heroku environment for our Rails 7 app with CircleCI carrying out builds. I debug and design daily in these environments to solve our business's problems concerning email, scaling services, and much more. I have worked extensively in our CircleCI environment to improve their reliability, to reduce false run fails, and to speed up the build times - I have done this as well in the past at theScore in addition to Jenkins experience while there.
+- In my time at BusyPaws I did a lot of administrative business tasks and I remain a shareholder to this day
 
 <p>
 <strong>Senior Software Developer and acting Team Lead</strong>
