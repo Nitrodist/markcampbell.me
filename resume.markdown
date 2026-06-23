@@ -211,6 +211,7 @@ January 2009 - December 2014
 - Ralph Brown Community Centre as Vice-President, CTO, and Volunteer
 - SkullSpace (Makerspace) as director, organizer, speaker, and volunteer
 - Winnipeg Repair Cafe as Organizer
+- YIMBY Winnipeg as organizer
 - Bring Your Love as stage manager
 - Rainbow Trout Music Festival as stage manager
 - Trout Forest Music Festival as volunteer
