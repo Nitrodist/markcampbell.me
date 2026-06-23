@@ -11,33 +11,16 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 
 ## Profile
 
-- Devops, AWS, Ruby, and Ruby on Rails developer for 16 years (2010)
-- Elixir for about 4 years of combined experience from working at theScore / Penn Interactive twice
-- Founding member and director of the Winnipeg hackerspace _SkullSpace_ (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
-- Vice President of [Ralph Brown Community Centre](http://ralphbrowncc.com/)
-- Former organizer of the monthly 'Hack Night and Workshop' for 3 years at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
-- Technically proficient in many programming languages and comfortable in Linux/Unix environments
+- Devops, Ruby on Rails, javascript, full-stack developer for 16 years (2010), Elixir for about 5 years and cross-platform Android-iOS app development with Flutter for about 2 years
+- Vice President of [Ralph Brown Community Centre](http://ralphbrowncc.com/) since 2017, grant writer and many more hats
+- Merchandise Crew Coordinator at Winnipeg Folk Fest for the past 4 years (2021)
+- Former Finance Chair of Manitoba Major Soccer League
+- A community organizer and volunteer for many organizations like Winnipeg Repair Cafe and YIMBY Winnipeg
+- Founding member and former director of the Winnipeg hackerspace _SkullSpace_ (<a href="http://skullspace.ca/">http://skullspace.ca/</a>)
+- Technically proficient in many programming languages, multimedia (audio, video, 3d modeling, 3d printing, CNC router) and comfortable in Linux/Unix environments
 - Presenter at Winnipeg AWS User Group, Toronto Ruby User Group, Winnipeg Ruby
-  User Group
-- Video content creator and editor for some technical documentation at theScore
-- Co-organizer of Winnisec, a monthly computer security meetup in Winnipeg - [https://winnisec.life](https://winnisec.life)
-- Open-source contributor - <a href="http://github.com/Nitrodist">http://github.com/Nitrodist</a>
-
-## Education
-
-<p>
-<strong>Diploma in Computer Analyst/ Programmer</strong>
-<br>
-<em>Red River College,</em> Winnipeg, Canada
-<br>
-2009 - 2011
-
-</p>
-
-- Class Representative
-- Honors, Salutatorian
-- Spoke at and attended Winnipeg Ruby User Group
-- Active founding member of SkullSpace, Winnipeg's Hackerspace
+  User Group, SkullSpace's Hax 6.0
+- Former organizer of the monthly 'Hack Night and Workshop' for 3 years at [Toronto Ruby Brigade](http://www.meetup.com/torontoruby/)
 
 ## Experience
 
@@ -222,55 +205,32 @@ January 2009 - December 2014
 - Created internal CRM website developed with Ruby on Rails
 - Built, configured, repaired, and maintained computers for clients
 
-<h2>Languages, Technologies, and Techniques</h2>
+## Volunteering
 
-<div class="tech_langs">
-  <ul>
-    <li>Ruby</li>
-    <li>Ruby on Rails</li>
-    <li>Python</li>
-    <li>AWS (CloudFormation, etc. etc.)</li>
-    <li>pytest</li>
-    <li>Sinatra</li>
-    <li>JavaScript/Node</li>
-    <li>Splunk & ELK</li>
-    <li>Cucumber (Rails)</li>
-    <li>Strong sql skills</li>
-    <li>ETLWorks</li>
-    <li>Metabase</li>
-    <li>mod_security</li>
-  </ul>
-</div>
-<div class="tech_langs">
-  <ul>
-    <li>Redis</li>
-    <li>Sidekiq</li>
-    <li>RSpec</li>
-    <li>Capybara</li>
-    <li>Beanstalkd</li>
-    <li>Git</li>
-    <li>Bash/Ksh/Zsh</li>
-    <li>Jenkins CI/CD workflow administration</li>
-    <li>MySQL administration</li>
-    <li>PostgreSQL administration</li>
-    <li>Oracle administration</li>
-  </ul>
-</div>
-<div class="tech_langs">
-  <ul>
-    <li>Elixir</li>
-    <li>Dart</li>
-    <li>Flutter</li>
-    <li>Ansible & Puppet</li>
-    <li>TDD & BDD</li>
-    <li>MVC & MVVM</li>
-    <li>Varnish</li>
-    <li>Agile and Scrum</li>
-    <li>Vim</li>
-    <li>MS-Access</li>
-    <li>CCNA Level 1</li>
-  </ul>
-</div>
+- Manitoba Major Soccer League as Finance Chair
+- Ralph Brown Community Centre as Vice-President, CTO, and Volunteer
+- SkullSpace (Makerspace) as director, organizer, speaker, and volunteer
+- Winnipeg Repair Cafe as Organizer
+- Bring Your Love as stage manager
+- Rainbow Trout Music Festival as stage manager
+- Trout Forest Music Festival as volunteer
+- Harvest Moon Music Festival as volunteer
+
+## Education
+
+<p>
+<strong>Diploma in Computer Analyst/ Programmer</strong>
+<br>
+<em>Red River College,</em> Winnipeg, Canada
+<br>
+2009 - 2011
+
+</p>
+
+- Class Representative
+- Honors, Salutatorian
+- Spoke at and attended Winnipeg Ruby User Group
+- Active founding member of SkullSpace, Winnipeg's Hackerspace
 
 ## References
 
