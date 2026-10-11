@@ -55,7 +55,7 @@ email: [me@markcampbell.me](mailto:me@markcampbell.me)
 <strong>Co-founder</strong>
 <br>
 <em>BusyPaws,</em> Winnipeg, Canada
-<br>September 2022 - May 2024 (to today... sort of)
+<br>September 2022 - May 2024
 <br>Bar None Inc. PO Box 167
 <br>Revelstoke, BC V4N 6B7, Canada 
 </p>
